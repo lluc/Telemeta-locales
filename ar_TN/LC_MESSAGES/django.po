@@ -882,7 +882,7 @@ msgstr "Ecrire"
 
 #: templates/postman/base.html:15 templates/telemeta/base.html:101
 msgid "Archives"
-msgstr "Archives"
+msgstr "الأرشيف"
 
 #: templates/postman/base.html:16
 msgid "Trash"
@@ -1091,7 +1091,7 @@ msgstr "عامّ"
 #: templates/telemeta/admin_enumerations.html:6
 #: templates/telemeta/base.html:122 templates/telemeta/enumeration_edit.html:7
 msgid "Enumerations"
-msgstr "Énumérations"
+msgstr "القوائم"
 
 #: templates/telemeta/admin_enumerations.html:13
 #: templates/telemeta/lists.html:74
