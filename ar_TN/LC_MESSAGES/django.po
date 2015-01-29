@@ -1080,13 +1080,13 @@ msgstr ""
 #: templates/telemeta/instrument_alias_edit.html:7
 #: templates/telemeta/instrument_edit.html:7
 msgid "Administration"
-msgstr "Administration"
+msgstr "الإدارة"
 
 #: templates/telemeta/admin.html:14 templates/telemeta/collection_edit.html:36
 #: templates/telemeta/mediaitem_edit.html:87
 #: templates/telemeta/resource_edit.html:38
 msgid "General"
-msgstr "Général"
+msgstr "عامّ"
 
 #: templates/telemeta/admin_enumerations.html:6
 #: templates/telemeta/base.html:122 templates/telemeta/enumeration_edit.html:7
@@ -1106,86 +1106,86 @@ msgstr "Énumérations"
 #: templates/telemeta/inc/resource_list.html:8
 #: templates/telemeta/inc/resource_related.html:21
 msgid "Title"
-msgstr "Titre"
+msgstr "العنوان"
 
 #: templates/telemeta/admin_enumerations.html:23
 msgid "No enumerations"
-msgstr "Aucune énumération"
+msgstr "بدون فهرسة"
 
 #: templates/telemeta/admin_instruments.html:6
 #: templates/telemeta/admin_users.html:6 templates/telemeta/base.html:115
 #: templates/telemeta/users.html:5 templates/telemeta/users.html.py:8
 msgid "Users"
-msgstr "Utilisateurs"
+msgstr "المستخدمون"
 
 #: templates/telemeta/admin_instruments.html:15
 #: templates/telemeta/admin_users.html:11 templates/telemeta/users.html:16
 msgid "No users"
-msgstr "Pas d'utilisateurs"
+msgstr "لا مستخدم"
 
 #: templates/telemeta/base.html:62
 msgid "Welcome"
-msgstr "Bienvenue"
+msgstr "مرحبا"
 
 #: templates/telemeta/base.html:69 templates/telemeta/base.html.py:73
 msgid "Help"
-msgstr "Aide"
+msgstr "مساعدة"
 
 #: templates/telemeta/base.html:70
 msgid "Sign out"
-msgstr "Déconnexion"
+msgstr "خروج"
 
 #: templates/telemeta/base.html:74 templates/telemeta/login.html:46
 msgid "Sign in"
-msgstr "Connexion"
+msgstr "دخول"
 
 #: templates/telemeta/base.html:96
 msgid "Desk"
-msgstr "Bureau"
+msgstr "المكتب"
 
 #: templates/telemeta/base.html:98
 msgid "Home"
-msgstr "Accueil"
+msgstr "المدخل"
 
 #: templates/telemeta/base.html:103 templates/telemeta/breadcrumbs.html:4
 #: templates/telemeta/inc/breadcrumbs.html:5
 msgid "Fonds"
-msgstr ""
+msgstr "الأرصدة"
 
 #: templates/telemeta/base.html:104 templates/telemeta/breadcrumbs.html:5
 #: templates/telemeta/inc/breadcrumbs.html:6
 msgid "Corpus"
-msgstr ""
+msgstr "الرّفوف"
 
 #: templates/telemeta/base.html:105 templates/telemeta/breadcrumbs.html:6
 #: templates/telemeta/collection_list.html:6
 #: templates/telemeta/collection_list.html:11
 #: templates/telemeta/inc/breadcrumbs.html:7
 msgid "Collections"
-msgstr "Collections"
+msgstr "المجموعات"
 
 #: templates/telemeta/base.html:106 templates/telemeta/breadcrumbs.html:7
 #: templates/telemeta/mediaitem_list.html:11
 #: templates/telemeta/inc/breadcrumbs.html:8
 msgid "Items"
-msgstr "Items"
+msgstr "الوثائق"
 
 #: templates/telemeta/base.html:110 templates/telemeta/home.html:25
 msgid "Geo Navigator"
-msgstr "Géo-Navigateur"
+msgstr "الجولة الجغرافيّة"
 
 #: templates/telemeta/base.html:112
 msgid "Advanced search"
-msgstr "Recherche avancée"
+msgstr "بحث متقدّم"
 
 #: templates/telemeta/base.html:119
 msgid "Admin"
-msgstr "Admin"
+msgstr "الإدارة"
 
 #: templates/telemeta/base.html:121
 msgctxt "admin"
 msgid "General"
-msgstr "Générale"
+msgstr "عامّ"
 
 #: templates/telemeta/base.html:123
 #: templates/telemeta/instrument_alias_edit_value.html:24
@@ -1193,32 +1193,32 @@ msgstr "Générale"
 #: templates/telemeta/instrument_edit.html:7
 #: templates/telemeta/instrument_edit_value.html:24
 msgid "Instruments"
-msgstr "Instruments"
+msgstr "الآلات الموسيقيّة"
 
 #: templates/telemeta/base.html:124
 #: templates/telemeta/instrument_alias_edit.html:4
 #: templates/telemeta/instrument_alias_edit.html:7
 msgid "Instrument aliases"
-msgstr "Alias d'instruments"
+msgstr "إسم ثاني للآلة"
 
 #: templates/telemeta/base.html:172
 msgid ""
 "Usage of the archives in the respect of cultural heritage of the original "
 "communities."
 msgstr ""
-"Usage des archives réservé dans le respect du patrimoine culturel des "
-"communautés d'origine."
+"استعمال الأرشيف يتمّ مع احترام التّراث الثّقافي للشّعوب الأصليّة"
+""
 
 #: templates/telemeta/base.html:177
 #: templates/telemeta/collection_detail.html:135
 msgid "Legal notices"
-msgstr "Mentions légales"
+msgstr "الحقوق"
 
 #: templates/telemeta/collection_add.html:6
 #: templates/telemeta/mediaitem_add.html:8
 #: templates/telemeta/resource_add.html:7
 msgid "New"
-msgstr "Nouveau"
+msgstr "إضافة"
 
 #: templates/telemeta/collection_add.html:12
 #: templates/telemeta/collection_add.html:20
@@ -1251,12 +1251,12 @@ msgstr "Nouveau"
 #: templates/telemeta/resource_related_edit.html:12
 #: templates/telemeta/resource_related_edit.html:40
 msgid "Cancel"
-msgstr "Annuler"
+msgstr "إلغاء"
 
 #: templates/telemeta/collection_detail.html:5
 #: templates/telemeta/collection_detail_dc.html:5 views/collection.py:51
 msgid "Collection"
-msgstr "Collection"
+msgstr "مجموعة"
 
 #: templates/telemeta/collection_detail.html:45
 #: templates/telemeta/lists.html:60
@@ -1264,118 +1264,118 @@ msgstr "Collection"
 #: templates/telemeta/profile_detail.html:72
 #: templates/telemeta/resource_detail.html:44
 msgid "Edit"
-msgstr "Editer"
+msgstr "تغيير"
 
 #: templates/telemeta/collection_detail.html:50
 #: templates/telemeta/mediaitem_detail.html:111
 #: templates/telemeta/resource_detail.html:49
 msgid "Copy"
-msgstr "Copier"
+msgstr "نسخ"
 
 #: templates/telemeta/collection_detail.html:57
 #: templates/telemeta/geo_continents.html:26
 #: templates/telemeta/mediaitem_detail.html:118
 #: templates/telemeta/resource_detail.html:56
 msgid "List"
-msgstr "Lister"
+msgstr "عرض القائمة"
 
 #: templates/telemeta/collection_detail.html:64
 msgid "Add item"
-msgstr "Ajouter item"
+msgstr "إضافة وثيقة"
 
 #: templates/telemeta/collection_detail.html:70
 msgid "Zip"
-msgstr ""
+msgstr "ضغط"
 
 #: templates/telemeta/collection_detail.html:82
 msgid "View list"
-msgstr "Voir liste"
+msgstr "عرض القائمة"
 
 #: templates/telemeta/collection_detail.html:93
 msgid "Document status"
-msgstr "Statut du document"
+msgstr "وضعية الوثيقة"
 
 #: templates/telemeta/collection_detail.html:95
 msgctxt "collection"
 msgid "Unpublished"
-msgstr "Inédit"
+msgstr "غير منشور"
 
 #: templates/telemeta/collection_detail.html:97
 msgctxt "collection"
 msgid "Published"
-msgstr "Edité"
+msgstr "منشور"
 
 #: templates/telemeta/collection_detail.html:105
 #: templates/telemeta/lists.html:78
 #: templates/telemeta/inc/collection_list.html:12
 msgid "Recording period"
-msgstr "Période d'enregistrement"
+msgstr "فترة التّسجيل"
 
 #: templates/telemeta/collection_detail.html:110
 #: templates/telemeta/mediaitem_detail.html:242
 msgid "Access type"
-msgstr "Type d'accès"
+msgstr "نوعية الآطّلاع"
 
 #: templates/telemeta/collection_detail.html:122
 #: templates/telemeta/mediaitem_detail.html:250
 msgid "Geographic and cultural informations"
-msgstr "Indications géographiques et culturelles"
+msgstr "معطيات جغرافيّة وثقافيّة"
 
 #: templates/telemeta/collection_detail.html:140
 #: templates/telemeta/lists.html:77
 #: templates/telemeta/inc/collection_list.html:11
 #: templates/telemeta/inc/mediaitem_list.html:10
 msgid "Recordist"
-msgstr "Collecteur"
+msgstr "الموثّق"
 
 #: templates/telemeta/collection_detail.html:155
 msgid "Bibliographic references"
-msgstr "Références bibliographiques"
+msgstr "معطيات بيبيوغرافيّة"
 
 #: templates/telemeta/collection_detail.html:167
 #: templates/telemeta/mediaitem_detail.html:313
 msgid "Archiving data"
-msgstr "Données d'archivage"
+msgstr "معطيات توثيقيّة"
 
 #: templates/telemeta/collection_detail.html:177
 msgid "Related documentation"
-msgstr "Documentation associée"
+msgstr "وثائق ذات صلة"
 
 #: templates/telemeta/collection_detail.html:185
 #: templates/telemeta/mediaitem_detail.html:357
 msgid "Comments"
-msgstr "Commentaires"
+msgstr "ملاحظات"
 
 #: templates/telemeta/collection_detail.html:189
 #: templates/telemeta/mediaitem_detail.html:327
 #: templates/telemeta/resource_detail.html:88
 msgid "Last modification"
-msgstr "Dernière modification de la fiche"
+msgstr "آخر تغيير"
 
 #: templates/telemeta/collection_detail.html:203
 #: templates/telemeta/mediaitem_detail.html:337
 msgid "Technical data"
-msgstr "Données techniques"
+msgstr "معطيات فنّيّة"
 
 #: templates/telemeta/collection_detail.html:211
 msgid "Collection size"
-msgstr "Volume de la collection"
+msgstr "حجم المجموعة"
 
 #: templates/telemeta/collection_detail.html:215
 #: templates/telemeta/geo_countries.html:16
 msgid "Number of items"
-msgstr "Nombre d'items"
+msgstr "عدد الوثائق"
 
 #: templates/telemeta/collection_detail_dc.html:12
 #: templates/telemeta/collection_detail_dc.html:22
 #: templates/telemeta/mediaitem_detail_dc.html:17
 #: templates/telemeta/resource_detail_dc.html:14
 msgid "Normal View"
-msgstr "Vue normale"
+msgstr "عرض عادي"
 
 #: templates/telemeta/collection_detail_dc.html:30
 msgid "No such collection"
-msgstr "Aucune collection de ce type"
+msgstr "لا وجود لهذه المجموعة"
 
 #: templates/telemeta/collection_edit.html:23
 #: templates/telemeta/collection_edit.html:77
@@ -1399,7 +1399,7 @@ msgstr "Aucune collection de ce type"
 #: templates/telemeta/resource_related_edit.html:13
 #: templates/telemeta/resource_related_edit.html:41
 msgid "Save"
-msgstr "Enregistrer"
+msgstr "حفظ"
 
 #: templates/telemeta/collection_edit.html:37
 #: templates/telemeta/mediaitem_edit.html:91
@@ -1408,37 +1408,37 @@ msgstr "Enregistrer"
 #: templates/telemeta/inc/mediaitem_related.html:6
 #: templates/telemeta/inc/resource_related.html:6
 msgid "Related media"
-msgstr "Média associés"
+msgstr "وثائق سمعيّة بصريّة مصاحبة"
 
 #: templates/telemeta/collection_edit.html:39
 #: templates/telemeta/mediaitem_edit.html:93
 msgid "Identifier"
-msgstr "Identifiant"
+msgstr "المعرّف"
 
 #: templates/telemeta/collection_list.html:25
 #: templates/telemeta/mediaitem_list.html:24
 msgid "Filters"
-msgstr "Filtres"
+msgstr "تصفية"
 
 #: templates/telemeta/collection_list.html:28
 msgctxt "collection list"
 msgid "All"
-msgstr "Toutes"
+msgstr "كلّ المجموعات"
 
 #: templates/telemeta/collection_list.html:29
 msgctxt "collection list"
 msgid "Unpublished"
-msgstr "Inédites"
+msgstr "مجموعات غير منشورة"
 
 #: templates/telemeta/collection_list.html:30
 msgctxt "collection list"
 msgid "Published"
-msgstr "Éditées"
+msgstr "مجموعات منشورة"
 
 #: templates/telemeta/collection_list.html:31
 msgctxt "collection list"
 msgid "Digitized"
-msgstr "Numérisées"
+msgstr "مجموعات مرقمنة"
 
 #: templates/telemeta/collection_list.html:37
 #: templates/telemeta/enumeration_edit.html:23
@@ -1446,7 +1446,7 @@ msgstr "Numérisées"
 #: templates/telemeta/instrument_edit.html:22 templates/telemeta/lists.html:51
 #: templates/telemeta/resource_list.html:24
 msgid "Add"
-msgstr "Ajouter"
+msgstr "إضافة"
 
 #: templates/telemeta/collection_related_edit.html:25
 #: templates/telemeta/mediaitem_related_edit.html:24
@@ -1455,25 +1455,25 @@ msgstr "Ajouter"
 #: templates/telemeta/inc/mediaitem_related.html:12
 #: templates/telemeta/inc/resource_related.html:12
 msgid "Media"
-msgstr "Média"
+msgstr "ميديا"
 
 #: templates/telemeta/country_info.html:9
 msgid "in"
-msgstr "dans"
+msgstr "بـ"
 
 #: templates/telemeta/country_info.html:18
 msgid "Populations / Social groups"
-msgstr "Populations / Groupes sociaux"
+msgstr "الثّقافة المحليّة"
 
 #: templates/telemeta/enumeration_edit.html:4
 msgid "Enumeration"
-msgstr "Enumération"
+msgstr "ترقيم"
 
 #: templates/telemeta/enumeration_edit.html:15
 #: templates/telemeta/instrument_alias_edit.html:14
 #: templates/telemeta/instrument_edit.html:14
 msgid "Add entry"
-msgstr "Ajouter une entrée"
+msgstr "إضافة"
 
 #: templates/telemeta/enumeration_edit.html:17
 #: templates/telemeta/enumeration_edit.html:31
@@ -1481,46 +1481,46 @@ msgstr "Ajouter une entrée"
 #: templates/telemeta/mediaitem_detail.html:199
 #: templates/telemeta/mediaitem_edit.html:137
 msgid "Value"
-msgstr "Valeur"
+msgstr "المضمون"
 
 #: templates/telemeta/enumeration_edit.html:18
 #: templates/telemeta/enumeration_edit_value.html:32
 msgid "Notes"
-msgstr "Notes"
+msgstr "ملاحظات"
 
 #: templates/telemeta/enumeration_edit.html:47
 #: templates/telemeta/instrument_alias_edit.html:44
 #: templates/telemeta/instrument_edit.html:44
 msgid "Remove selected items"
-msgstr "Supprimer les éléments sélectionnés"
+msgstr "حذف المعطيات المختارة"
 
 #: templates/telemeta/enumeration_edit.html:51
 msgid "This enumeration is empty"
-msgstr "Cette énumération est vide"
+msgstr "هذا التّرقيم خالي"
 
 #: templates/telemeta/enumeration_edit_value.html:28
 #: templates/telemeta/instrument_alias_edit_value.html:28
 #: templates/telemeta/instrument_edit_value.html:28
 msgid "Modify an entry"
-msgstr "Modification d'une entrée"
+msgstr "تغيير"
 
 #: templates/telemeta/enumeration_edit_value.html:47
 #: templates/telemeta/instrument_alias_edit_value.html:46
 #: templates/telemeta/instrument_edit_value.html:46
 msgid "Replace by"
-msgstr "Remplacer par"
+msgstr "غيّر بـ"
 
 #: templates/telemeta/enumeration_edit_value.html:54
 #: templates/telemeta/instrument_alias_edit_value.html:53
 #: templates/telemeta/instrument_edit_value.html:53
 msgid "delete value after replacing"
-msgstr "effacer la valeur après remplacement"
+msgstr "حذف المضمون بعد التّعويض"
 
 #: templates/telemeta/enumeration_edit_value.html:59
 #: templates/telemeta/instrument_alias_edit_value.html:58
 #: templates/telemeta/instrument_edit_value.html:58
 msgid "Replace"
-msgstr "Remplacement"
+msgstr "تعوييض"
 
 #: templates/telemeta/geo_continents.html:5
 #: templates/telemeta/geo_continents.html:20
@@ -1528,17 +1528,17 @@ msgstr "Remplacement"
 #: templates/telemeta/geo_country_collections.html:5
 #: templates/telemeta/geo_country_items.html:5
 msgid "Geographic Navigator"
-msgstr "Navigateur géographique"
+msgstr "جغرافيا"
 
 #: templates/telemeta/geo_continents.html:25
 msgid "Map"
-msgstr "Carte"
+msgstr "الخريطة"
 
 #: templates/telemeta/geo_countries.html:8
 #: templates/telemeta/geo_country_collections.html:8
 #: templates/telemeta/geo_country_items.html:8
 msgid "World"
-msgstr "Monde"
+msgstr "العالم"
 
 #: templates/telemeta/geo_countries.html:14
 msgid "Country"
@@ -1564,15 +1564,15 @@ msgstr[1] "%(counter)s items "
 
 #: templates/telemeta/home.html:14 templates/telemeta/home.html.py:67
 msgid "Musical selection"
-msgstr "Sélection musicale"
+msgstr "مختارات موسيقيّة"
 
 #: templates/telemeta/home.html:28
 msgid "Open the geographic navigator"
-msgstr "Accéder au navigateur géographique"
+msgstr "الجولة الجغرافيّة"
 
 #: templates/telemeta/home.html:41
 msgid "Partners"
-msgstr "Partenaires"
+msgstr "الشّركاء"
 
 #: templates/telemeta/instrument_alias_edit.html:16
 #: templates/telemeta/instrument_alias_edit.html:30
@@ -1581,21 +1581,21 @@ msgstr "Partenaires"
 #: templates/telemeta/instrument_edit.html:30
 #: templates/telemeta/instrument_edit_value.html:30
 msgid "Name"
-msgstr "Nom"
+msgstr "الإسم"
 
 #: templates/telemeta/instrument_alias_edit.html:48
 #: templates/telemeta/instrument_edit.html:48
 msgid "This instrument list is empty"
-msgstr "Cette énumération est vide"
+msgstr "هذه القائمة للآلات فارغة"
 
 #: templates/telemeta/lists.html:47
 msgid "My playlists"
-msgstr "Mes listes de lecture"
+msgstr "قائماتي للاستماع"
 
 #: templates/telemeta/lists.html:75
 #: templates/telemeta/inc/module_revisions.html:18
 msgid "Type"
-msgstr "Type"
+msgstr "النّوع"
 
 #: templates/telemeta/lists.html:76
 #: templates/telemeta/inc/children_list.html:18
@@ -1603,7 +1603,7 @@ msgstr "Type"
 #: templates/telemeta/inc/mediaitem_list.html:17
 #: templates/telemeta/inc/resource_list.html:11
 msgid "Code"
-msgstr "Cote"
+msgstr "المعرّف"
 
 #: templates/telemeta/lists.html:79
 #: templates/telemeta/search_criteria.html:168
@@ -1612,16 +1612,16 @@ msgstr "Cote"
 #: templates/telemeta/inc/mediaitem_list.html:9
 #: templates/telemeta/inc/resource_list.html:9
 msgid "Digitized"
-msgstr "Numérisé"
+msgstr "مرقمن"
 
 #: templates/telemeta/lists.html:97
 #: templates/telemeta/inc/module_revisions.html:40
 msgid "deleted"
-msgstr "supprimé"
+msgstr "تمّ الحذف"
 
 #: templates/telemeta/login.html:22
 msgid "User authentication"
-msgstr "Identification"
+msgstr "التّعرّف على المستعمل"
 
 #: templates/telemeta/login.html:29
 msgid "Your username and password didn't match. Please try again."
