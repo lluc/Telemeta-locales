@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-10 14:19+0100\n"
+"POT-Creation-Date: 2015-02-19 11:16+0100\n"
 "PO-Revision-Date: 2012-12-22 21:24+0100\n"
 "Last-Translator: Patrik Tschudin <patsch@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "X-Generator: Poedit 1.5.4\n"
 
 #: models/collection.py:70 models/item.py:70 models/item.py:401
-#: models/item.py:483 models/playlist.py:49 models/resource.py:70
+#: models/item.py:482 models/playlist.py:49 models/resource.py:70
 #: models/resource.py:98
 msgid "title"
 msgstr "Titel"
@@ -386,7 +386,7 @@ msgstr "zum Fonds gehörende Medien"
 
 #: models/format.py:53 models/item.py:165 models/item.py:323
 #: models/item.py:350 models/item.py:360 models/item.py:374 models/item.py:398
-#: models/item.py:423 models/item.py:457 models/item.py:469 models/item.py:482
+#: models/item.py:423 models/item.py:457 models/item.py:469 models/item.py:481
 msgid "item"
 msgstr "Element"
 
@@ -717,15 +717,15 @@ msgstr "Identifikator"
 msgid "item identifiers"
 msgstr "Identifikator"
 
-#: models/item.py:484
+#: models/item.py:483
 msgid "start"
 msgstr "Start"
 
-#: models/item.py:485
+#: models/item.py:484
 msgid "end"
 msgstr "Ende"
 
-#: models/item.py:489
+#: models/item.py:488
 msgid "item part"
 msgstr "Elementteil"
 
@@ -1041,7 +1041,6 @@ msgid "Thank you again for your interest in our services."
 msgstr "Besten Dank für Ihr Interesse an unseren Dienstleistungen."
 
 #: templates/postman/email_user.txt:17 templates/postman/email_visitor.txt:16
-#: templates/telemeta/registration/password_reset_email.html:13
 msgid "The site administrator"
 msgstr "Der Administrator der Website"
 
@@ -1574,8 +1573,8 @@ msgstr "antworten"
 #: templates/telemeta/geo_continents.html:5
 #: templates/telemeta/geo_continents.html:20
 #: templates/telemeta/geo_countries.html:5
-#: templates/telemeta/geo_country_collections.html:5
-#: templates/telemeta/geo_country_items.html:5
+#: templates/telemeta/geo_country_collections.html:6
+#: templates/telemeta/geo_country_items.html:6
 msgid "Geographic Navigator"
 msgstr "GeoNavigation"
 
@@ -1584,8 +1583,8 @@ msgid "Map"
 msgstr "Karte"
 
 #: templates/telemeta/geo_countries.html:8
-#: templates/telemeta/geo_country_collections.html:8
-#: templates/telemeta/geo_country_items.html:8
+#: templates/telemeta/geo_country_collections.html:12
+#: templates/telemeta/geo_country_items.html:11
 msgid "World"
 msgstr "Welt"
 
@@ -1673,6 +1672,7 @@ msgid "User authentication"
 msgstr "Authentifizierung"
 
 #: templates/telemeta/login.html:29
+#: templates/telemeta/registration/login.html:9
 msgid "Your username and password didn't match. Please try again."
 msgstr "Name und Passwort passten nicht zusammen. Versuchen Sie es nochmals."
 
@@ -1868,8 +1868,8 @@ msgid "Apply"
 msgstr "anwenden"
 
 #: templates/telemeta/profile_detail.html:75
-#: templates/telemeta/registration/password_change_done.html:3
-#: templates/telemeta/registration/password_change_form.html:4
+#: templates/telemeta/registration/password_change_form.html:3
+#: templates/telemeta/registration/password_change_form.html:12
 msgid "Change password"
 msgstr "Passwort ändern"
 
@@ -1968,6 +1968,7 @@ msgstr "Mithilfe"
 #: templates/telemeta/inc/collection_related.html:45
 #: templates/telemeta/inc/mediaitem_related.html:45
 #: templates/telemeta/inc/resource_related.html:45
+#: templates/telemeta/registration/registration_complete.html:23
 #, fuzzy
 msgid "Download"
 msgstr "herunterladen:"
@@ -2006,6 +2007,86 @@ msgstr "Letzte Änderung"
 msgid "Groups"
 msgstr "Gruppen"
 
+#: templates/telemeta/registration/activate.html:3
+#: templates/telemeta/registration/activation_complete.html:3
+msgid "Activation complete"
+msgstr ""
+
+#: templates/telemeta/registration/activate.html:3
+msgid "Activation problem"
+msgstr ""
+
+#: templates/telemeta/registration/activate.html:7
+#, python-format
+msgid ""
+"\n"
+"Thanks %(account)s, activation complete!\n"
+"You may now <a href='%(auth_login_url)s'>login</a> using the username and "
+"password you set at registration.\n"
+msgstr ""
+
+#: templates/telemeta/registration/activate.html:12
+msgid ""
+"Oops &ndash; it seems that your activation key is invalid.  Please check the "
+"url again."
+msgstr ""
+
+#: templates/telemeta/registration/activation_complete.html:6
+#, python-format
+msgid ""
+"\n"
+"Thanks, activation complete!  You may now <a "
+"href='%(auth_login_url)s'>login</a> using the username and password you set "
+"at registration.\n"
+msgstr ""
+
+#: templates/telemeta/registration/activation_email.html:8
+#, python-format
+msgid ""
+"<body>\n"
+"<h3>Account registration for %(sitename)s</h3>\n"
+"<p>\n"
+"You (or someone pretending to be you) have asked to register an account at\n"
+"<b>%(sitename)s</b>.<br/>\n"
+"If this wasn't you, please ignore this email and your address will be "
+"removed\n"
+"from our records.\n"
+"</p>\n"
+"<p>\n"
+"To activate this account, please click the following link within the next \n"
+"<b>%(expiration_days)s</b> days:<br/>\n"
+"<a href=\"http://%(sitedomain)s%(activation_key_url)s\">http://%(sitedomain)s"
+"%(activation_key_url)s</a>\n"
+"</p>\n"
+"<p>\n"
+"Sincerely,<br/>\n"
+"%(sitename)s Management\n"
+"</p>\n"
+"</body>\n"
+msgstr ""
+
+#: templates/telemeta/registration/activation_email.txt:3
+#, python-format
+msgid ""
+"\n"
+"You (or someone pretending to be you) have asked to register an account at\n"
+"%(sitename)s.  If this wasn't you, please ignore this email\n"
+"and your address will be removed from our records.\n"
+"\n"
+"To activate this account, please click the following link within the next \n"
+"%(expiration_days)s days:\n"
+"\n"
+"http://%(siteurl)s%(activation_key_url)s\n"
+"\n"
+"Sincerely,\n"
+"%(sitename)s Management\n"
+msgstr ""
+
+#: templates/telemeta/registration/activation_email_subject.txt:1
+#, python-format
+msgid "Account registration for %(sitename)s"
+msgstr ""
+
 #: templates/telemeta/registration/logged_out.html:6
 msgid "Thanks for spending some quality time with the Web site today."
 msgstr "Besten Dank für Ihren Besuch auf der Website!"
@@ -2014,166 +2095,133 @@ msgstr "Besten Dank für Ihren Besuch auf der Website!"
 msgid "Log in again"
 msgstr "erneut einloggen"
 
-#: templates/telemeta/registration/password_change_done.html:3
-#: templates/telemeta/registration/password_change_form.html:4
-msgid "Documentation"
-msgstr "Dokumentation"
+#: templates/telemeta/registration/login.html:3
+#, fuzzy
+msgid "Login"
+msgstr "zuletzt eingeloggt"
 
-#: templates/telemeta/registration/password_change_done.html:3
-#: templates/telemeta/registration/password_change_form.html:4
-msgid "Log out"
+#: templates/telemeta/registration/login.html:23
+#, python-format
+msgid ""
+"<a href=\"%(auth_pwd_reset_url)s\">Forgot</a> your password?\n"
+"    <a href=\"%(register_url)s\">Need an account</a>?"
+msgstr ""
+
+#: templates/telemeta/registration/login.html:26
+#, fuzzy
+msgid "login"
+msgstr "zuletzt eingeloggt"
+
+#: templates/telemeta/registration/logout.html:3
+#, fuzzy
+msgid "Logged out"
 msgstr "ausloggen"
 
-#: templates/telemeta/registration/password_change_done.html:5
-msgid "Password change successful"
-msgstr "Passwortänderung erfolgreich"
+#: templates/telemeta/registration/logout.html:5
+msgid "Successfully logged out!"
+msgstr ""
 
-#: templates/telemeta/registration/password_change_done.html:9
-msgid "Your password was changed."
-msgstr "Ihr Passwort wurde geändert."
-
-#: templates/telemeta/registration/password_change_form.html:6
-msgid "Password change"
+#: templates/telemeta/registration/password_change_done.html:3
+#, fuzzy
+msgid "Password changed"
 msgstr "Passwortänderung"
 
-#: templates/telemeta/registration/password_change_form.html:14
-msgid "Please correct the error below."
-msgid_plural "Please correct the errors below."
-msgstr[0] "Bitte diesen Fehler korrigieren."
-msgstr[1] "Bitte diese Fehler korrigieren"
+#: templates/telemeta/registration/password_change_done.html:5
+#, fuzzy
+msgid "Password successfully changed!"
+msgstr "Passwort erfolgreich zurückgesetzt"
 
-#: templates/telemeta/registration/password_change_form.html:18
-msgid ""
-"Please enter your old password, for security's sake, and then enter your new "
-"password twice so we can verify you typed it in correctly."
-msgstr ""
-"Bitte geben Sie erst Ihr altes Passwort ein (aus Sicherheitsgründen), und "
-"dann Ihr neues Passwort zweimal, so dass wir sicher sind, dass Sie es "
-"korrekt getippt haben."
-
-#: templates/telemeta/registration/password_change_form.html:24
-msgid "Old password"
-msgstr "altes Passwort"
-
-#: templates/telemeta/registration/password_change_form.html:29
-msgid "New password"
-msgstr "neues Passwort"
-
-#: templates/telemeta/registration/password_change_form.html:34
-msgid "Password (again)"
-msgstr "Passwort (nochmals dasselbe)"
-
-#: templates/telemeta/registration/password_change_form.html:42
-#: templates/telemeta/registration/password_reset_confirm.html:20
-msgid "Change my password"
-msgstr "Mein Passwort ändern"
-
-#: templates/telemeta/registration/password_reset_complete.html:4
+#: templates/telemeta/registration/password_reset_complete.html:3
 msgid "Password reset complete"
 msgstr "Passwort erfolgreich zurückgesetzt"
 
-#: templates/telemeta/registration/password_reset_complete.html:7
-msgid "Your password has been set.  You may go ahead and log in now."
+#: templates/telemeta/registration/password_reset_complete.html:4
+#, fuzzy, python-format
+msgid ""
+"\n"
+"Your password has been reset!  You may now <a href=\"%(login_url)s\">log in</"
+"a>.\n"
 msgstr ""
 "Ihr Passwort wurde geändert. Sie können nun fortfahren und sich damit "
 "einloggen."
 
-#: templates/telemeta/registration/password_reset_complete.html:10
-msgid "Log in"
-msgstr "einloggen"
+#: templates/telemeta/registration/password_reset_confirm.html:3
+#, fuzzy
+msgid "Confirm password reset"
+msgstr "bestätigen Sie das Passwort:"
 
-#: templates/telemeta/registration/password_reset_confirm.html:4
-#: templates/telemeta/registration/password_reset_form.html:4
+#: templates/telemeta/registration/password_reset_confirm.html:5
+msgid "Enter your new password below to reset your password:"
+msgstr ""
+
+#: templates/telemeta/registration/password_reset_confirm.html:9
+#, fuzzy
+msgid "Set password"
+msgstr "neues Passwort"
+
+#: templates/telemeta/registration/password_reset_done.html:3
 msgid "Password reset"
 msgstr "Passwort zurücksetzen"
 
-#: templates/telemeta/registration/password_reset_confirm.html:8
+#: templates/telemeta/registration/password_reset_done.html:6
 msgid ""
-"Please enter your new password twice so we can verify you typed it in "
-"correctly."
+"We have sent you an email with a link to reset your password.\n"
+"Please check your email and click the link to continue."
 msgstr ""
-"Bitte geben Sie Ihr Passwort zweimal ein, so dass wir sicher sind, dass Sie "
-"es korrekt getippt haben."
-
-#: templates/telemeta/registration/password_reset_confirm.html:14
-msgid "New password:"
-msgstr "neues Passwort:"
-
-#: templates/telemeta/registration/password_reset_confirm.html:16
-msgid "Confirm password:"
-msgstr "bestätigen Sie das Passwort:"
-
-#: templates/telemeta/registration/password_reset_confirm.html:24
-msgid "Password reset unsuccessful"
-msgstr "Passwort erfolgreich zurückgesetzt"
-
-#: templates/telemeta/registration/password_reset_confirm.html:25
-msgid ""
-"The password reset link was invalid, possibly because it has already been "
-"used.  Please request a new password reset."
-msgstr ""
-"Der Link, um das Passwort zurückzusetzen, war ungültig. Möglicherweise wurde "
-"er bereits verwendet. Bitte verlangen Sie erneut, dass wir Ihr Passwort "
-"zurücksetzen."
-
-#: templates/telemeta/registration/password_reset_done.html:4
-msgid "Password reset successful"
-msgstr "Passwort erfolgreich zurückgesetzt"
-
-#: templates/telemeta/registration/password_reset_done.html:7
-msgid ""
-"We've e-mailed you instructions for setting your password to the e-mail "
-"address you submitted. You should be receiving it shortly."
-msgstr ""
-"Wir haben an die von Ihnen genannte E-Mail einen Hinweis geschickt, wie Sie "
-"Ihr Passwort zurücksetzen können. Die Mitteilung sollte in Kürze bei Ihnen "
-"eintreffen."
 
 #: templates/telemeta/registration/password_reset_email.html:1
-msgid "Hello"
-msgstr "Hallo"
+msgid "Greetings"
+msgstr ""
 
 #: templates/telemeta/registration/password_reset_email.html:3
-msgid "You're receiving this e-mail because you requested a password reset"
-msgstr "Sie erhalten diese E-Mail, weil Sie Ihr Passwort zurücksetzen wollten"
-
-#: templates/telemeta/registration/password_reset_email.html:4
 #, python-format
-msgid "for your user account at %(site_name)s"
-msgstr "für Ihr Konto auf der Website %(site_name)s"
-
-#: templates/telemeta/registration/password_reset_email.html:6
-msgid "Please go to the following page and choose a new password:"
+msgid ""
+"You are receiving this email because you (or someone pretending to be you)\n"
+"requested that your password be reset on the %(domain)s site.  If you do "
+"not \n"
+"wish to reset your password, please ignore this message.\n"
+"\n"
+"To reset your password, please click the following link, or copy and paste "
+"it\n"
+"into your web browser:"
 msgstr ""
-"Bitte klicken Sie auf diesen Link und wählen Sie dort ein neues Passwort:"
-
-#: templates/telemeta/registration/password_reset_email.html:10
-msgid "Your username, in case you've forgotten:"
-msgstr "Das ist Ihr Name, falls Sie ihn vergessen haben sollten:"
 
 #: templates/telemeta/registration/password_reset_email.html:12
-msgid "Best regards"
-msgstr "mit freundlichen Grüssen"
-
-#: templates/telemeta/registration/password_reset_email.html:13
-msgid "of the"
-msgstr "vom"
-
-#: templates/telemeta/registration/password_reset_form.html:7
+#, python-format
 msgid ""
-"Forgotten your password? Enter your e-mail address below, and we'll e-mail "
-"instructions for setting a new one."
+"\n"
+"Your username, in case you've forgotten: %(username)s\n"
+"\n"
+"Best regards,\n"
+"%(site_name)s Management\n"
+msgstr ""
+
+#: templates/telemeta/registration/password_reset_form.html:3
+#: templates/telemeta/registration/password_reset_form.html:14
+#, fuzzy
+msgid "Reset password"
+msgstr "Mein Passwort zurücksetzen"
+
+#: templates/telemeta/registration/password_reset_form.html:4
+#, fuzzy
+msgid ""
+"\n"
+"Forgot your password?  Enter your email in the form below and we'll send "
+"you\n"
+"instructions for creating a new one."
 msgstr ""
 "Sie haben Ihr Passwort vergessen? Geben Sie hier ihre E-Mail-Adresse ein und "
 "wir schicken Ihnen die Anleitung, wie Sie ein neues eingeben können."
 
-#: templates/telemeta/registration/password_reset_form.html:11
-msgid "E-mail address:"
-msgstr "E-Mail-Adresse:"
+#: templates/telemeta/registration/registration_complete.html:6
+#: templates/telemeta/registration/registration_form.html:6
+#, fuzzy
+msgid "Registration"
+msgstr "Verwaltung"
 
-#: templates/telemeta/registration/password_reset_form.html:11
-msgid "Reset my password"
-msgstr "Mein Passwort zurücksetzen"
+#: templates/telemeta/registration/registration_form.html:21
+msgid "Submit"
+msgstr ""
 
 #: templatetags/telemeta_utils.py:259
 #, python-format
@@ -2238,13 +2286,102 @@ msgstr "Letze Änderungen"
 msgid "Lists"
 msgstr "Listen"
 
-#: views/item.py:751
+#: views/item.py:751 views/item.py:828
 msgid "You have successfully updated your item."
 msgstr ""
 
-#: views/item.py:799
+#: views/item.py:806
 msgid "You have successfully added your item."
 msgstr ""
+
+#~ msgid "Documentation"
+#~ msgstr "Dokumentation"
+
+#~ msgid "Password change successful"
+#~ msgstr "Passwortänderung erfolgreich"
+
+#~ msgid "Your password was changed."
+#~ msgstr "Ihr Passwort wurde geändert."
+
+#~ msgid "Please correct the error below."
+#~ msgid_plural "Please correct the errors below."
+#~ msgstr[0] "Bitte diesen Fehler korrigieren."
+#~ msgstr[1] "Bitte diese Fehler korrigieren"
+
+#~ msgid ""
+#~ "Please enter your old password, for security's sake, and then enter your "
+#~ "new password twice so we can verify you typed it in correctly."
+#~ msgstr ""
+#~ "Bitte geben Sie erst Ihr altes Passwort ein (aus Sicherheitsgründen), und "
+#~ "dann Ihr neues Passwort zweimal, so dass wir sicher sind, dass Sie es "
+#~ "korrekt getippt haben."
+
+#~ msgid "Old password"
+#~ msgstr "altes Passwort"
+
+#~ msgid "Password (again)"
+#~ msgstr "Passwort (nochmals dasselbe)"
+
+#~ msgid "Change my password"
+#~ msgstr "Mein Passwort ändern"
+
+#~ msgid "Log in"
+#~ msgstr "einloggen"
+
+#~ msgid ""
+#~ "Please enter your new password twice so we can verify you typed it in "
+#~ "correctly."
+#~ msgstr ""
+#~ "Bitte geben Sie Ihr Passwort zweimal ein, so dass wir sicher sind, dass "
+#~ "Sie es korrekt getippt haben."
+
+#~ msgid "New password:"
+#~ msgstr "neues Passwort:"
+
+#~ msgid "Password reset unsuccessful"
+#~ msgstr "Passwort erfolgreich zurückgesetzt"
+
+#~ msgid ""
+#~ "The password reset link was invalid, possibly because it has already been "
+#~ "used.  Please request a new password reset."
+#~ msgstr ""
+#~ "Der Link, um das Passwort zurückzusetzen, war ungültig. Möglicherweise "
+#~ "wurde er bereits verwendet. Bitte verlangen Sie erneut, dass wir Ihr "
+#~ "Passwort zurücksetzen."
+
+#~ msgid ""
+#~ "We've e-mailed you instructions for setting your password to the e-mail "
+#~ "address you submitted. You should be receiving it shortly."
+#~ msgstr ""
+#~ "Wir haben an die von Ihnen genannte E-Mail einen Hinweis geschickt, wie "
+#~ "Sie Ihr Passwort zurücksetzen können. Die Mitteilung sollte in Kürze bei "
+#~ "Ihnen eintreffen."
+
+#~ msgid "Hello"
+#~ msgstr "Hallo"
+
+#~ msgid "You're receiving this e-mail because you requested a password reset"
+#~ msgstr ""
+#~ "Sie erhalten diese E-Mail, weil Sie Ihr Passwort zurücksetzen wollten"
+
+#~ msgid "for your user account at %(site_name)s"
+#~ msgstr "für Ihr Konto auf der Website %(site_name)s"
+
+#~ msgid "Please go to the following page and choose a new password:"
+#~ msgstr ""
+#~ "Bitte klicken Sie auf diesen Link und wählen Sie dort ein neues Passwort:"
+
+#~ msgid "Your username, in case you've forgotten:"
+#~ msgstr "Das ist Ihr Name, falls Sie ihn vergessen haben sollten:"
+
+#~ msgid "Best regards"
+#~ msgstr "mit freundlichen Grüssen"
+
+#~ msgid "of the"
+#~ msgstr "vom"
+
+#~ msgid "E-mail address:"
+#~ msgstr "E-Mail-Adresse:"
 
 #, fuzzy
 #~ msgctxt "collection"

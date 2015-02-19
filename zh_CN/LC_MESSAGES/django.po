@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Telemeta 1.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-10 14:19+0100\n"
+"POT-Creation-Date: 2015-02-19 11:16+0100\n"
 "PO-Revision-Date: 2014-09-02 16:18+2\n"
 "Last-Translator: Zaichao XIA <xiazaichao@gmail.com>\n"
 "Language-Team: zh_CN <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0\n"
 
 #: models/collection.py:70 models/item.py:70 models/item.py:401
-#: models/item.py:483 models/playlist.py:49 models/resource.py:70
+#: models/item.py:482 models/playlist.py:49 models/resource.py:70
 #: models/resource.py:98
 msgid "title"
 msgstr "标题"
@@ -386,7 +386,7 @@ msgstr "全宗相关媒体"
 
 #: models/format.py:53 models/item.py:165 models/item.py:323
 #: models/item.py:350 models/item.py:360 models/item.py:374 models/item.py:398
-#: models/item.py:423 models/item.py:457 models/item.py:469 models/item.py:482
+#: models/item.py:423 models/item.py:457 models/item.py:469 models/item.py:481
 msgid "item"
 msgstr "项"
 
@@ -715,15 +715,15 @@ msgstr "标识码"
 msgid "item identifiers"
 msgstr "标识码"
 
-#: models/item.py:484
+#: models/item.py:483
 msgid "start"
 msgstr "开始"
 
-#: models/item.py:485
+#: models/item.py:484
 msgid "end"
 msgstr "结束"
 
-#: models/item.py:489
+#: models/item.py:488
 msgid "item part"
 msgstr "项部分"
 
@@ -1036,7 +1036,6 @@ msgid "Thank you again for your interest in our services."
 msgstr "再次感谢您对我们服务的肯定。"
 
 #: templates/postman/email_user.txt:17 templates/postman/email_visitor.txt:16
-#: templates/telemeta/registration/password_reset_email.html:13
 msgid "The site administrator"
 msgstr "网站管理员"
 
@@ -1560,8 +1559,8 @@ msgstr "替换"
 #: templates/telemeta/geo_continents.html:5
 #: templates/telemeta/geo_continents.html:20
 #: templates/telemeta/geo_countries.html:5
-#: templates/telemeta/geo_country_collections.html:5
-#: templates/telemeta/geo_country_items.html:5
+#: templates/telemeta/geo_country_collections.html:6
+#: templates/telemeta/geo_country_items.html:6
 msgid "Geographic Navigator"
 msgstr "地理导航"
 
@@ -1570,8 +1569,8 @@ msgid "Map"
 msgstr "地图"
 
 #: templates/telemeta/geo_countries.html:8
-#: templates/telemeta/geo_country_collections.html:8
-#: templates/telemeta/geo_country_items.html:8
+#: templates/telemeta/geo_country_collections.html:12
+#: templates/telemeta/geo_country_items.html:11
 msgid "World"
 msgstr "世界"
 
@@ -1659,6 +1658,7 @@ msgid "User authentication"
 msgstr "用户认证"
 
 #: templates/telemeta/login.html:29
+#: templates/telemeta/registration/login.html:9
 msgid "Your username and password didn't match. Please try again."
 msgstr "您的用户名和密码不匹配。请重试。"
 
@@ -1848,8 +1848,8 @@ msgid "Apply"
 msgstr "应用"
 
 #: templates/telemeta/profile_detail.html:75
-#: templates/telemeta/registration/password_change_done.html:3
-#: templates/telemeta/registration/password_change_form.html:4
+#: templates/telemeta/registration/password_change_form.html:3
+#: templates/telemeta/registration/password_change_form.html:12
 msgid "Change password"
 msgstr "更改密码"
 
@@ -1946,6 +1946,7 @@ msgstr "工作人员"
 #: templates/telemeta/inc/collection_related.html:45
 #: templates/telemeta/inc/mediaitem_related.html:45
 #: templates/telemeta/inc/resource_related.html:45
+#: templates/telemeta/registration/registration_complete.html:23
 msgid "Download"
 msgstr "下载"
 
@@ -1983,6 +1984,86 @@ msgstr "上次修改"
 msgid "Groups"
 msgstr "群组"
 
+#: templates/telemeta/registration/activate.html:3
+#: templates/telemeta/registration/activation_complete.html:3
+msgid "Activation complete"
+msgstr ""
+
+#: templates/telemeta/registration/activate.html:3
+msgid "Activation problem"
+msgstr ""
+
+#: templates/telemeta/registration/activate.html:7
+#, python-format
+msgid ""
+"\n"
+"Thanks %(account)s, activation complete!\n"
+"You may now <a href='%(auth_login_url)s'>login</a> using the username and "
+"password you set at registration.\n"
+msgstr ""
+
+#: templates/telemeta/registration/activate.html:12
+msgid ""
+"Oops &ndash; it seems that your activation key is invalid.  Please check the "
+"url again."
+msgstr ""
+
+#: templates/telemeta/registration/activation_complete.html:6
+#, python-format
+msgid ""
+"\n"
+"Thanks, activation complete!  You may now <a "
+"href='%(auth_login_url)s'>login</a> using the username and password you set "
+"at registration.\n"
+msgstr ""
+
+#: templates/telemeta/registration/activation_email.html:8
+#, python-format
+msgid ""
+"<body>\n"
+"<h3>Account registration for %(sitename)s</h3>\n"
+"<p>\n"
+"You (or someone pretending to be you) have asked to register an account at\n"
+"<b>%(sitename)s</b>.<br/>\n"
+"If this wasn't you, please ignore this email and your address will be "
+"removed\n"
+"from our records.\n"
+"</p>\n"
+"<p>\n"
+"To activate this account, please click the following link within the next \n"
+"<b>%(expiration_days)s</b> days:<br/>\n"
+"<a href=\"http://%(sitedomain)s%(activation_key_url)s\">http://%(sitedomain)s"
+"%(activation_key_url)s</a>\n"
+"</p>\n"
+"<p>\n"
+"Sincerely,<br/>\n"
+"%(sitename)s Management\n"
+"</p>\n"
+"</body>\n"
+msgstr ""
+
+#: templates/telemeta/registration/activation_email.txt:3
+#, python-format
+msgid ""
+"\n"
+"You (or someone pretending to be you) have asked to register an account at\n"
+"%(sitename)s.  If this wasn't you, please ignore this email\n"
+"and your address will be removed from our records.\n"
+"\n"
+"To activate this account, please click the following link within the next \n"
+"%(expiration_days)s days:\n"
+"\n"
+"http://%(siteurl)s%(activation_key_url)s\n"
+"\n"
+"Sincerely,\n"
+"%(sitename)s Management\n"
+msgstr ""
+
+#: templates/telemeta/registration/activation_email_subject.txt:1
+#, python-format
+msgid "Account registration for %(sitename)s"
+msgstr ""
+
 #: templates/telemeta/registration/logged_out.html:6
 msgid "Thanks for spending some quality time with the Web site today."
 msgstr "谢谢您今天对网站的访问与支持。"
@@ -1991,156 +2072,131 @@ msgstr "谢谢您今天对网站的访问与支持。"
 msgid "Log in again"
 msgstr "重新登录"
 
-#: templates/telemeta/registration/password_change_done.html:3
-#: templates/telemeta/registration/password_change_form.html:4
-msgid "Documentation"
-msgstr "文献"
+#: templates/telemeta/registration/login.html:3
+#, fuzzy
+msgid "Login"
+msgstr "上次登录"
 
-#: templates/telemeta/registration/password_change_done.html:3
-#: templates/telemeta/registration/password_change_form.html:4
-msgid "Log out"
+#: templates/telemeta/registration/login.html:23
+#, python-format
+msgid ""
+"<a href=\"%(auth_pwd_reset_url)s\">Forgot</a> your password?\n"
+"    <a href=\"%(register_url)s\">Need an account</a>?"
+msgstr ""
+
+#: templates/telemeta/registration/login.html:26
+#, fuzzy
+msgid "login"
+msgstr "上次登录"
+
+#: templates/telemeta/registration/logout.html:3
+#, fuzzy
+msgid "Logged out"
 msgstr "注销"
 
-#: templates/telemeta/registration/password_change_done.html:5
-msgid "Password change successful"
-msgstr "密码修改成功"
+#: templates/telemeta/registration/logout.html:5
+msgid "Successfully logged out!"
+msgstr ""
 
-#: templates/telemeta/registration/password_change_done.html:9
-msgid "Your password was changed."
-msgstr "您的密码已修改"
-
-#: templates/telemeta/registration/password_change_form.html:6
-msgid "Password change"
+#: templates/telemeta/registration/password_change_done.html:3
+#, fuzzy
+msgid "Password changed"
 msgstr "修改密码"
 
-#: templates/telemeta/registration/password_change_form.html:14
-msgid "Please correct the error below."
-msgid_plural "Please correct the errors below."
-msgstr[0] "请更正下面的错误"
-msgstr[1] "请更正下面的错误"
+#: templates/telemeta/registration/password_change_done.html:5
+#, fuzzy
+msgid "Password successfully changed!"
+msgstr "密码重置成功"
 
-#: templates/telemeta/registration/password_change_form.html:18
-msgid ""
-"Please enter your old password, for security's sake, and then enter your new "
-"password twice so we can verify you typed it in correctly."
-msgstr ""
-"请输入您的旧密码，为了安全起见，请接着输入两次新密码以方便我们验证您是否正确"
-"输入。"
-
-#: templates/telemeta/registration/password_change_form.html:24
-msgid "Old password"
-msgstr "旧密码"
-
-#: templates/telemeta/registration/password_change_form.html:29
-msgid "New password"
-msgstr "新密码"
-
-#: templates/telemeta/registration/password_change_form.html:34
-msgid "Password (again)"
-msgstr "新密码（再一次）"
-
-#: templates/telemeta/registration/password_change_form.html:42
-#: templates/telemeta/registration/password_reset_confirm.html:20
-msgid "Change my password"
-msgstr "修改我的密码"
-
-#: templates/telemeta/registration/password_reset_complete.html:4
+#: templates/telemeta/registration/password_reset_complete.html:3
 msgid "Password reset complete"
 msgstr "密码重置完成"
 
-#: templates/telemeta/registration/password_reset_complete.html:7
-msgid "Your password has been set.  You may go ahead and log in now."
+#: templates/telemeta/registration/password_reset_complete.html:4
+#, fuzzy, python-format
+msgid ""
+"\n"
+"Your password has been reset!  You may now <a href=\"%(login_url)s\">log in</"
+"a>.\n"
 msgstr "您已经完成密码设置。您现在可以直接登录。"
 
-#: templates/telemeta/registration/password_reset_complete.html:10
-msgid "Log in"
-msgstr "登录"
+#: templates/telemeta/registration/password_reset_confirm.html:3
+#, fuzzy
+msgid "Confirm password reset"
+msgstr "确认密码："
 
-#: templates/telemeta/registration/password_reset_confirm.html:4
-#: templates/telemeta/registration/password_reset_form.html:4
+#: templates/telemeta/registration/password_reset_confirm.html:5
+msgid "Enter your new password below to reset your password:"
+msgstr ""
+
+#: templates/telemeta/registration/password_reset_confirm.html:9
+#, fuzzy
+msgid "Set password"
+msgstr "新密码"
+
+#: templates/telemeta/registration/password_reset_done.html:3
 msgid "Password reset"
 msgstr "密码重置"
 
-#: templates/telemeta/registration/password_reset_confirm.html:8
+#: templates/telemeta/registration/password_reset_done.html:6
 msgid ""
-"Please enter your new password twice so we can verify you typed it in "
-"correctly."
-msgstr "请输入两次新密码以方便我们验证您是否正确输入。"
-
-#: templates/telemeta/registration/password_reset_confirm.html:14
-msgid "New password:"
-msgstr "新密码："
-
-#: templates/telemeta/registration/password_reset_confirm.html:16
-msgid "Confirm password:"
-msgstr "确认密码："
-
-#: templates/telemeta/registration/password_reset_confirm.html:24
-msgid "Password reset unsuccessful"
-msgstr "密码重置成功"
-
-#: templates/telemeta/registration/password_reset_confirm.html:25
-msgid ""
-"The password reset link was invalid, possibly because it has already been "
-"used.  Please request a new password reset."
-msgstr "密码重置链接无效，可能由于已经被使用所致。请发送新的密码重置请求。"
-
-#: templates/telemeta/registration/password_reset_done.html:4
-msgid "Password reset successful"
-msgstr "密码重置成功"
-
-#: templates/telemeta/registration/password_reset_done.html:7
-msgid ""
-"We've e-mailed you instructions for setting your password to the e-mail "
-"address you submitted. You should be receiving it shortly."
+"We have sent you an email with a link to reset your password.\n"
+"Please check your email and click the link to continue."
 msgstr ""
-"我们已经向您的注册邮箱发送相关提示以方便您设置密码。您将很快收到，请注意查"
-"收。"
 
 #: templates/telemeta/registration/password_reset_email.html:1
-msgid "Hello"
-msgstr "您好"
+msgid "Greetings"
+msgstr ""
 
 #: templates/telemeta/registration/password_reset_email.html:3
-msgid "You're receiving this e-mail because you requested a password reset"
-msgstr "您收到了该邮件，由于您申请了密码重置"
-
-#: templates/telemeta/registration/password_reset_email.html:4
 #, python-format
-msgid "for your user account at %(site_name)s"
-msgstr "为您在%(site_name)s的用户账户"
-
-#: templates/telemeta/registration/password_reset_email.html:6
-msgid "Please go to the following page and choose a new password:"
-msgstr "请转到下一页并选择一个新的密码"
-
-#: templates/telemeta/registration/password_reset_email.html:10
-msgid "Your username, in case you've forgotten:"
-msgstr "您的用户名，防止您忘记"
+msgid ""
+"You are receiving this email because you (or someone pretending to be you)\n"
+"requested that your password be reset on the %(domain)s site.  If you do "
+"not \n"
+"wish to reset your password, please ignore this message.\n"
+"\n"
+"To reset your password, please click the following link, or copy and paste "
+"it\n"
+"into your web browser:"
+msgstr ""
 
 #: templates/telemeta/registration/password_reset_email.html:12
-msgid "Best regards"
-msgstr "此致敬礼"
-
-#: templates/telemeta/registration/password_reset_email.html:13
-msgid "of the"
-msgstr "的"
-
-#: templates/telemeta/registration/password_reset_form.html:7
+#, python-format
 msgid ""
-"Forgotten your password? Enter your e-mail address below, and we'll e-mail "
-"instructions for setting a new one."
+"\n"
+"Your username, in case you've forgotten: %(username)s\n"
+"\n"
+"Best regards,\n"
+"%(site_name)s Management\n"
+msgstr ""
+
+#: templates/telemeta/registration/password_reset_form.html:3
+#: templates/telemeta/registration/password_reset_form.html:14
+#, fuzzy
+msgid "Reset password"
+msgstr "重置我的密码"
+
+#: templates/telemeta/registration/password_reset_form.html:4
+#, fuzzy
+msgid ""
+"\n"
+"Forgot your password?  Enter your email in the form below and we'll send "
+"you\n"
+"instructions for creating a new one."
 msgstr ""
 "忘记密码？请在下方输入您的邮箱地址，我们将给您的邮箱发送设置新密码的相关提"
 "示。"
 
-#: templates/telemeta/registration/password_reset_form.html:11
-msgid "E-mail address:"
-msgstr "邮箱地址："
+#: templates/telemeta/registration/registration_complete.html:6
+#: templates/telemeta/registration/registration_form.html:6
+#, fuzzy
+msgid "Registration"
+msgstr "管理"
 
-#: templates/telemeta/registration/password_reset_form.html:11
-msgid "Reset my password"
-msgstr "重置我的密码"
+#: templates/telemeta/registration/registration_form.html:21
+msgid "Submit"
+msgstr ""
 
 #: templatetags/telemeta_utils.py:259
 #, python-format
@@ -2203,13 +2259,93 @@ msgstr "上次更改"
 msgid "Lists"
 msgstr "列表"
 
-#: views/item.py:751
+#: views/item.py:751 views/item.py:828
 msgid "You have successfully updated your item."
 msgstr ""
 
-#: views/item.py:799
+#: views/item.py:806
 msgid "You have successfully added your item."
 msgstr ""
+
+#~ msgid "Documentation"
+#~ msgstr "文献"
+
+#~ msgid "Password change successful"
+#~ msgstr "密码修改成功"
+
+#~ msgid "Your password was changed."
+#~ msgstr "您的密码已修改"
+
+#~ msgid "Please correct the error below."
+#~ msgid_plural "Please correct the errors below."
+#~ msgstr[0] "请更正下面的错误"
+#~ msgstr[1] "请更正下面的错误"
+
+#~ msgid ""
+#~ "Please enter your old password, for security's sake, and then enter your "
+#~ "new password twice so we can verify you typed it in correctly."
+#~ msgstr ""
+#~ "请输入您的旧密码，为了安全起见，请接着输入两次新密码以方便我们验证您是否正"
+#~ "确输入。"
+
+#~ msgid "Old password"
+#~ msgstr "旧密码"
+
+#~ msgid "Password (again)"
+#~ msgstr "新密码（再一次）"
+
+#~ msgid "Change my password"
+#~ msgstr "修改我的密码"
+
+#~ msgid "Log in"
+#~ msgstr "登录"
+
+#~ msgid ""
+#~ "Please enter your new password twice so we can verify you typed it in "
+#~ "correctly."
+#~ msgstr "请输入两次新密码以方便我们验证您是否正确输入。"
+
+#~ msgid "New password:"
+#~ msgstr "新密码："
+
+#~ msgid "Password reset unsuccessful"
+#~ msgstr "密码重置成功"
+
+#~ msgid ""
+#~ "The password reset link was invalid, possibly because it has already been "
+#~ "used.  Please request a new password reset."
+#~ msgstr "密码重置链接无效，可能由于已经被使用所致。请发送新的密码重置请求。"
+
+#~ msgid ""
+#~ "We've e-mailed you instructions for setting your password to the e-mail "
+#~ "address you submitted. You should be receiving it shortly."
+#~ msgstr ""
+#~ "我们已经向您的注册邮箱发送相关提示以方便您设置密码。您将很快收到，请注意查"
+#~ "收。"
+
+#~ msgid "Hello"
+#~ msgstr "您好"
+
+#~ msgid "You're receiving this e-mail because you requested a password reset"
+#~ msgstr "您收到了该邮件，由于您申请了密码重置"
+
+#~ msgid "for your user account at %(site_name)s"
+#~ msgstr "为您在%(site_name)s的用户账户"
+
+#~ msgid "Please go to the following page and choose a new password:"
+#~ msgstr "请转到下一页并选择一个新的密码"
+
+#~ msgid "Your username, in case you've forgotten:"
+#~ msgstr "您的用户名，防止您忘记"
+
+#~ msgid "Best regards"
+#~ msgstr "此致敬礼"
+
+#~ msgid "of the"
+#~ msgstr "的"
+
+#~ msgid "E-mail address:"
+#~ msgstr "邮箱地址："
 
 #, fuzzy
 #~ msgctxt "collection"
