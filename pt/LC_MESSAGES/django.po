@@ -48,52 +48,52 @@ msgstr "contexto de gravação"
 
 #: models/collection.py:75 models/corpus.py:53
 msgid "recording year (from)"
-msgstr ""
+msgstr "ano de gravação (de)"
 
 #: models/collection.py:75 models/collection.py:76 models/collection.py:77
 #: models/corpus.py:53 models/corpus.py:54
 msgid "YYYY"
-msgstr ""
+msgstr "AAAA"
 
 #: models/collection.py:76 models/corpus.py:54
 msgid "recording year (until)"
-msgstr ""
+msgstr "ano de gravação (até)"
 
 #: models/collection.py:77
 msgid "year published"
-msgstr ""
+msgstr "ano de publicação"
 
 #: models/collection.py:78 models/item.py:76 models/resource.py:54
 msgid "access type"
-msgstr ""
+msgstr "tipo de acesso"
 
 #: models/collection.py:84 models/item.py:117
 msgid "recordist"
-msgstr ""
+msgstr "autor da gravação"
 
 #: models/collection.py:85 models/enum.py:138 models/enum.py:144
 msgid "publisher"
-msgstr ""
+msgstr "editor"
 
 #: models/collection.py:86
 msgid "publisher collection"
-msgstr ""
+msgstr "coleção do editor"
 
 #: models/collection.py:87
 msgid "publisher serial number"
-msgstr ""
+msgstr "número de série do editor"
 
 #: models/collection.py:88
 msgid "booklet author"
-msgstr ""
+msgstr "autor da nota editada"
 
 #: models/collection.py:89
 msgid "publisher reference"
-msgstr ""
+msgstr "referência do editor"
 
 #: models/collection.py:90
 msgid "bibliographic references"
-msgstr ""
+msgstr "referências bibliográficas"
 
 #: models/collection.py:92 models/item.py:106
 msgid "automatic access after a rolling period"
