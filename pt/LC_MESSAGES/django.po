@@ -97,103 +97,103 @@ msgstr "referências bibliográficas"
 
 #: models/collection.py:92 models/item.py:106
 msgid "automatic access after a rolling period"
-msgstr ""
+msgstr "acesso automático após a data rolante"
 
 #: models/collection.py:93 models/enum.py:96
 msgid "legal rights"
-msgstr ""
+msgstr "direitos de utilização"
 
 #: models/collection.py:96 models/item.py:99 models/resource.py:77
 msgid "code"
-msgstr ""
+msgstr "código"
 
 #: models/collection.py:97
 msgid "old code"
-msgstr ""
+msgstr "código antigo"
 
 #: models/collection.py:98 models/enum.py:75
 msgid "mode of acquisition"
-msgstr ""
+msgstr "modo de aquisição"
 
 #: models/collection.py:99
 msgid "CNRS depositor"
-msgstr ""
+msgstr "depósito CNRS"
 
 #: models/collection.py:100 models/enum.py:267
 msgid "copy type"
-msgstr ""
+msgstr "tipo de cópia"
 
 #: models/collection.py:101 models/enum.py:82
 msgid "record author"
-msgstr ""
+msgstr "redator da ficha"
 
 #: models/collection.py:102
 msgid "related documentation"
-msgstr ""
+msgstr "documentação associada"
 
 #: models/collection.py:103 models/enum.py:68
 msgid "secondary edition"
-msgstr ""
+msgstr "reedição"
 
 #: models/collection.py:104 models/enum.py:291
 msgid "collection status"
-msgstr ""
+msgstr "status da coleção"
 
 #: models/collection.py:105
 msgid "copies"
-msgstr ""
+msgstr "cópias"
 
 #: models/collection.py:106 models/language.py:55
 msgid "comment"
-msgstr ""
+msgstr "comentário"
 
 #: models/collection.py:107 models/enum.py:89
 msgid "record writer"
-msgstr ""
+msgstr "escritor da ficha"
 
 #: models/collection.py:108
 msgid "archiver notes"
-msgstr ""
+msgstr "notas do arquivista"
 
 #: models/collection.py:109
 msgid "items finished"
-msgstr ""
+msgstr "fichas concluídas"
 
 #: models/collection.py:110
 msgid "recordist identical to depositor"
-msgstr ""
+msgstr "autor da gravação idêntico ao autor de depósito"
 
 #: models/collection.py:111
 msgid "published"
-msgstr ""
+msgstr "publicado"
 
 #: models/collection.py:112
 msgid "conservation site"
-msgstr ""
+msgstr "lugar de conservação"
 
 #: models/collection.py:115 models/enum.py:275 models/item.py:110
 msgid "media type"
-msgstr ""
+msgstr "tipo de mídia"
 
 #: models/collection.py:116
 msgid "estimated duration"
-msgstr ""
+msgstr "duração estimada"
 
 #: models/collection.py:117
 msgid "number of components (medium / piece)"
-msgstr ""
+msgstr "número de componentes (mídia / peça)"
 
 #: models/collection.py:118 models/enum.py:283
 msgid "original format"
-msgstr ""
+msgstr "formato original"
 
 #: models/collection.py:119 models/enum.py:61
 msgid "archive format"
-msgstr ""
+msgstr "formato de arquivo"
 
 #: models/collection.py:120
 msgid "digitization"
-msgstr ""
+msgstr "digitalização"
 
 #: models/collection.py:123
 msgid "copies (obsolete field)"
@@ -206,19 +206,19 @@ msgstr ""
 #: models/collection.py:134 models/collection.py:278 models/collection.py:289
 #: models/item.py:73
 msgid "collection"
-msgstr ""
+msgstr "coleção"
 
 #: models/collection.py:167 models/collection.py:177
 msgid "states / nations"
-msgstr ""
+msgstr "lugar"
 
 #: models/collection.py:191
 msgid "populations / social groups"
-msgstr ""
+msgstr "população / grupo social"
 
 #: models/collection.py:198 models/item.py:192
 msgid "computed duration"
-msgstr ""
+msgstr "duração"
 
 #: models/collection.py:206
 msgid "collection size"
@@ -230,19 +230,19 @@ msgstr ""
 
 #: models/collection.py:212 templates/telemeta/mediaitem_list.html:29
 msgid "Published"
-msgstr ""
+msgstr "publicado"
 
 #: models/collection.py:282 models/collection.py:283
 msgid "collection related media"
-msgstr ""
+msgstr "mídia associada"
 
 #: models/collection.py:293
 msgid "collection identifier"
-msgstr ""
+msgstr "código"
 
 #: models/collection.py:294
 msgid "collection identifiers"
-msgstr ""
+msgstr "código"
 
 #: models/core.py:63 models/item.py:57 models/item.py:158
 msgid "none"
@@ -262,7 +262,7 @@ msgstr ""
 
 #: models/corpus.py:52
 msgid "collections"
-msgstr ""
+msgstr "coleção"
 
 #: models/corpus.py:74 models/fonds.py:72
 msgid "total available duration"
@@ -271,7 +271,7 @@ msgstr ""
 #: models/corpus.py:78 models/corpus.py:79 models/corpus.py:86
 #: models/fonds.py:52
 msgid "corpus"
-msgstr ""
+msgstr "corpus"
 
 #: models/corpus.py:90 models/corpus.py:91
 msgid "corpus related media"
@@ -285,19 +285,19 @@ msgstr ""
 #: models/enum.py:45 models/identifier.py:53 models/instrument.py:45
 #: models/instrument.py:57
 msgid "notes"
-msgstr ""
+msgstr "notas"
 
 #: models/enum.py:110
 msgid "A/D conversion"
-msgstr ""
+msgstr "digitalização"
 
 #: models/enum.py:117 models/item.py:89
 msgid "vernacular style"
-msgstr ""
+msgstr "estilo vernáculo"
 
 #: models/enum.py:124 models/item.py:90
 msgid "generic style"
-msgstr ""
+msgstr "estilo genérico"
 
 #: models/enum.py:131 models/item.py:348
 msgid "keyword"
@@ -305,7 +305,7 @@ msgstr ""
 
 #: models/enum.py:160 models/enum.py:166 models/item.py:84
 msgid "population / social group"
-msgstr ""
+msgstr "população / grupo social"
 
 #: models/enum.py:167 models/instrument.py:44 models/instrument.py:56
 #: models/item.py:373 models/language.py:54 models/location.py:52
@@ -339,15 +339,15 @@ msgstr ""
 
 #: models/enum.py:239 models/item.py:94
 msgid "organization"
-msgstr ""
+msgstr "organização"
 
 #: models/enum.py:249 models/item.py:96
 msgid "rights"
-msgstr ""
+msgstr "direitos"
 
 #: models/enum.py:259 models/item.py:122
 msgid "topic"
-msgstr ""
+msgstr "tema"
 
 #: models/enum.py:299
 msgid "identifier type"
@@ -355,7 +355,7 @@ msgstr ""
 
 #: models/fields.py:146
 msgid "Duration"
-msgstr ""
+msgstr "duração"
 
 #: models/fields.py:151
 msgid "Enter a valid duration in HH:MM[:ss] format."
@@ -373,11 +373,11 @@ msgstr ""
 #: models/item.py:347 models/item.py:357 models/item.py:371 models/item.py:395
 #: models/item.py:420 models/item.py:454 models/item.py:466 models/item.py:478
 msgid "item"
-msgstr ""
+msgstr "item"
 
 #: models/format.py:56
 msgid "physical format"
-msgstr ""
+msgstr "formato de arquivo"
 
 #: models/format.py:57 models/item.py:100
 msgid "original code"
