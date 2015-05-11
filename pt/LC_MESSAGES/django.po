@@ -22,15 +22,15 @@ msgstr ""
 #: models/item.py:479 models/playlist.py:49 models/resource.py:74
 #: models/resource.py:102
 msgid "title"
-msgstr ""
+msgstr "título"
 
 #: models/collection.py:71 models/item.py:71
 msgid "original title / translation"
-msgstr ""
+msgstr "título original"
 
 #: models/collection.py:72
 msgid "depositor / contributor"
-msgstr ""
+msgstr "autor do depósito"
 
 #: models/collection.py:72 models/collection.py:84 models/item.py:72
 #: models/item.py:91 models/item.py:121
@@ -40,11 +40,11 @@ msgstr ""
 #: models/collection.py:73 models/item.py:400 models/playlist.py:50
 #: models/resource.py:76 models/resource.py:104
 msgid "description"
-msgstr ""
+msgstr "descrição"
 
 #: models/collection.py:74 models/enum.py:103
 msgid "recording context"
-msgstr ""
+msgstr "contexto de gravação"
 
 #: models/collection.py:75 models/corpus.py:53
 msgid "recording year (from)"
