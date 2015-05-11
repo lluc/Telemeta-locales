@@ -226,7 +226,7 @@ msgstr ""
 
 #: models/collection.py:210 templates/telemeta/mediaitem_list.html:28
 msgid "Unpublished"
-msgstr ""
+msgstr "no publicado"
 
 #: models/collection.py:212 templates/telemeta/mediaitem_list.html:29
 msgid "Published"
