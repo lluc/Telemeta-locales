@@ -311,7 +311,7 @@ msgstr "população / grupo social"
 #: models/item.py:373 models/language.py:54 models/location.py:52
 #: models/location.py:160
 msgid "name"
-msgstr ""
+msgstr "nome"
 
 #: models/enum.py:183 models/format.py:72
 msgid "tape wheel diameter (cm)"
@@ -351,7 +351,7 @@ msgstr "tema"
 
 #: models/enum.py:299
 msgid "identifier type"
-msgstr ""
+msgstr "tipo de identificador"
 
 #: models/fields.py:146
 msgid "Duration"
@@ -359,7 +359,7 @@ msgstr "duração"
 
 #: models/fields.py:151
 msgid "Enter a valid duration in HH:MM[:ss] format."
-msgstr ""
+msgstr "escrever um termo válido"
 
 #: models/fonds.py:76 models/fonds.py:77 models/fonds.py:84
 msgid "fonds"
@@ -381,35 +381,35 @@ msgstr "formato de arquivo"
 
 #: models/format.py:57 models/item.py:100
 msgid "original code"
-msgstr ""
+msgstr "número original"
 
 #: models/format.py:58
 msgid "original number"
-msgstr ""
+msgstr "referência original"
 
 #: models/format.py:59
 msgid "original status"
-msgstr ""
+msgstr "estado do original"
 
 #: models/format.py:60
 msgid "technical properties / conservation state"
-msgstr ""
+msgstr "qualidade técnica, estado de conservação"
 
 #: models/format.py:61
 msgid "comments / notes"
-msgstr ""
+msgstr "notas"
 
 #: models/format.py:63
 msgid "original location"
-msgstr ""
+msgstr "localização do original"
 
 #: models/format.py:67
 msgid "audio quality"
-msgstr ""
+msgstr "qualidade de som"
 
 #: models/format.py:68
 msgid "recording system"
-msgstr ""
+msgstr "sistema de gravação"
 
 #: models/format.py:73
 msgid "tape thickness (um)"
@@ -429,96 +429,96 @@ msgstr ""
 
 #: models/format.py:83
 msgid "format"
-msgstr ""
+msgstr "formato"
 
 #: models/identifier.py:47 models/language.py:48 models/location.py:159
 msgid "identifier"
-msgstr ""
+msgstr "número"
 
 #: models/identifier.py:48 models/language.py:53 models/location.py:53
 msgid "type"
-msgstr ""
+msgstr "tipo"
 
 #: models/identifier.py:49
 msgid "date added"
-msgstr ""
+msgstr "data afixada"
 
 #: models/identifier.py:50
 msgid "date of first attribution"
-msgstr ""
+msgstr "data da primeira afectação"
 
 #: models/identifier.py:51
 msgid "date of last attribution"
-msgstr ""
+msgstr "data da última atribuição"
 
 #: models/identifier.py:52
 msgid "date modified"
-msgstr ""
+msgstr "data da última modificação do item"
 
 #: models/instrument.py:61
 msgid "instrument aliases"
-msgstr ""
+msgstr "alias do instrumento"
 
 #: models/instrument.py:70 models/instrument.py:87
 msgid "instrument"
-msgstr ""
+msgstr "instrumento"
 
 #: models/instrument.py:72
 msgid "parent instrument"
-msgstr ""
+msgstr "Pai do instrumento"
 
 #: models/instrument.py:85 models/location.py:173
 msgid "alias"
-msgstr ""
+msgstr "alias"
 
 #: models/item.py:60
 msgid "broken"
-msgstr ""
+msgstr "quebrado"
 
 #: models/item.py:60
 msgid "pending"
-msgstr ""
+msgstr "espera"
 
 #: models/item.py:60
 msgid "processing"
-msgstr ""
+msgstr "contínuo"
 
 #: models/item.py:61
 msgid "done"
-msgstr ""
+msgstr "acabado"
 
 #: models/item.py:61
 msgid "ready"
-msgstr ""
+msgstr "pronto"
 
 #: models/item.py:72
 msgid "collector"
-msgstr ""
+msgstr "autor da gravação"
 
 #: models/item.py:74
 msgid "recording date (from)"
-msgstr ""
+msgstr "ano de gravação (de)"
 
 #: models/item.py:74 models/item.py:75
 msgid "YYYY-MM-DD"
-msgstr ""
+msgstr "AAAA-MM-DD"
 
 #: models/item.py:75
 msgid "recording date (until)"
-msgstr ""
+msgstr "ano de gravação (até)"
 
 #: models/item.py:79 models/location.py:113 models/location.py:172
 #: models/location.py:187
 msgid "location"
-msgstr ""
+msgstr "lugar"
 
 #: models/item.py:80
 msgid "location details"
-msgstr ""
+msgstr "detalhes do lugar"
 
 #: models/item.py:81
 msgid "cultural area"
-msgstr ""
+msgstr "área cultural"
 
 #: models/item.py:82
 msgid "language"
