@@ -905,11 +905,12 @@ msgstr "Arquivo"
 
 #: templates/postman/base.html:16
 msgid "Trash"
-msgstr ""
+msgstr "Cesta"
 
 #: templates/postman/base_folder.html:8
 msgid "Sorry, this page number is invalid."
-msgstr ""
+msgstr "
+Desculpe, este número da página é inválido"
 
 #: templates/postman/base_folder.html:13
 msgid "by conversation"
@@ -1086,16 +1087,16 @@ msgstr ""
 
 #: templates/postman/view.html:14
 msgid ":"
-msgstr ""
+msgstr ":"
 
 #: templates/postman/view.html:23
 msgid "Back"
-msgstr ""
+msgstr "Retorno"
 
 #: templates/search/search.html:7 templates/search/search.html.py:18
 #: templates/telemeta/search_criteria.html:176
 msgid "Search"
-msgstr ""
+msgstr "Pesquisa"
 
 #: templates/telemeta/admin.html:11
 #: templates/telemeta/admin_enumerations.html:6
@@ -1103,13 +1104,13 @@ msgstr ""
 #: templates/telemeta/instrument_alias_edit.html:7
 #: templates/telemeta/instrument_edit.html:7
 msgid "Administration"
-msgstr ""
+msgstr "Administração"
 
 #: templates/telemeta/admin.html:14 templates/telemeta/collection_edit.html:36
 #: templates/telemeta/mediaitem_edit.html:87
 #: templates/telemeta/resource_edit.html:38
 msgid "General"
-msgstr ""
+msgstr "Geral"
 
 #: templates/telemeta/admin_enumerations.html:6
 #: templates/telemeta/base.html:138 templates/telemeta/enumeration_edit.html:7
@@ -1587,7 +1588,7 @@ msgstr ""
 #: templates/telemeta/instrument_edit.html:30
 #: templates/telemeta/instrument_edit_value.html:30
 msgid "Name"
-msgstr ""
+msgstr "Nome"
 
 #: templates/telemeta/instrument_alias_edit.html:48
 #: templates/telemeta/instrument_edit.html:48
@@ -1596,12 +1597,12 @@ msgstr ""
 
 #: templates/telemeta/lists.html:47
 msgid "My playlists"
-msgstr ""
+msgstr "Minha seleção"
 
 #: templates/telemeta/lists.html:75
 #: templates/telemeta/inc/module_revisions.html:18
 msgid "Type"
-msgstr ""
+msgstr "Tipo"
 
 #: templates/telemeta/lists.html:76
 #: templates/telemeta/inc/children_list.html:18
@@ -1609,7 +1610,7 @@ msgstr ""
 #: templates/telemeta/inc/mediaitem_list.html:17
 #: templates/telemeta/inc/resource_list.html:11
 msgid "Code"
-msgstr ""
+msgstr "Código"
 
 #: templates/telemeta/lists.html:79
 #: templates/telemeta/search_criteria.html:168
@@ -1618,92 +1619,92 @@ msgstr ""
 #: templates/telemeta/inc/mediaitem_list.html:9
 #: templates/telemeta/inc/resource_list.html:9
 msgid "Digitized"
-msgstr ""
+msgstr "Digitalizado"
 
 #: templates/telemeta/lists.html:97
 #: templates/telemeta/inc/module_revisions.html:40
 msgid "deleted"
-msgstr ""
+msgstr "Apagados"
 
 #: templates/telemeta/login.html:22
 msgid "User authentication"
-msgstr ""
+msgstr "A autenticação do usuário"
 
 #: templates/telemeta/login.html:29
 #: templates/telemeta/registration/login.html:9
 msgid "Your username and password didn't match. Please try again."
-msgstr ""
+msgstr "Seu nome e senha não são válidos, tente novamente."
 
 #: templates/telemeta/login.html:51
 msgid "Password forgotten"
-msgstr ""
+msgstr "Esqueceu sua senha"
 
 #: templates/telemeta/mediaitem_add.html:5
 #: templates/telemeta/mediaitem_detail.html:5 views/item.py:145
 msgid "Item"
-msgstr ""
+msgstr "Item"
 
 #: templates/telemeta/mediaitem_detail.html:135
 msgid ""
 "This archive is not available online, please contact the CREM. Thank you."
-msgstr ""
+msgstr "Este arquivo não está disponível on-line, entre em contato com o CREM. Obrigado."
 
 #: templates/telemeta/mediaitem_detail.html:189
 #: templates/telemeta/mediaitem_edit.html:127
 msgid "File"
-msgstr ""
+msgstr "Ficheiro"
 
 #: templates/telemeta/mediaitem_detail.html:191
 #: templates/telemeta/mediaitem_edit.html:90
 #: templates/telemeta/mediaitem_edit.html:129
 msgid "Markers"
-msgstr ""
+msgstr "Marcadores"
 
 #: templates/telemeta/mediaitem_detail.html:199
 #: templates/telemeta/mediaitem_edit.html:136
 msgid "Property"
-msgstr ""
+msgstr "Propriedade"
 
 #: templates/telemeta/mediaitem_detail.html:201
 #: templates/telemeta/mediaitem_edit.html:138
 msgid "Unit"
-msgstr ""
+msgstr "Unidade"
 
 #: templates/telemeta/mediaitem_detail.html:222
 #: templates/telemeta/mediaitem_edit.html:74
 msgid "You don't have access to the media of this item."
-msgstr ""
+msgstr "Você não tem acesso aos meios de comunicação desse item."
 
 #: templates/telemeta/mediaitem_detail.html:222
 #: templates/telemeta/mediaitem_edit.html:74
 msgid "Please contact the administrators to get more rights."
-msgstr ""
+msgstr "Entre em contato com os administradores para obter mais direitos."
 
 #: templates/telemeta/mediaitem_detail.html:222
 #: templates/telemeta/mediaitem_edit.html:74
 msgid "Click here"
-msgstr ""
+msgstr "Clique aqui"
 
 #: templates/telemeta/mediaitem_detail.html:241
 msgid "Recording date"
-msgstr ""
+msgstr "Data da gravação"
 
 #: templates/telemeta/mediaitem_detail.html:253
 #: templates/telemeta/inc/mediaitem_list.html:12
 msgid "Location"
-msgstr ""
+msgstr "Lugar"
 
 #: templates/telemeta/mediaitem_detail.html:274
 msgid "Musical informations"
-msgstr ""
+msgstr "Informações sobre música"
 
 #: templates/telemeta/mediaitem_detail.html:322
 msgid "Published references"
-msgstr ""
+msgstr "referências bibliográficas"
 
 #: templates/telemeta/mediaitem_detail.html:325
 msgid "Remarks"
-msgstr ""
+msgstr "Comentários"
 
 #: templates/telemeta/mediaitem_detail.html:346
 msgid "Item size"
@@ -1746,7 +1747,7 @@ msgstr ""
 #: templates/telemeta/search_results.html:27
 #: templates/telemeta/search_results.html:36
 msgid "All"
-msgstr ""
+msgstr "Tudo"
 
 #: templates/telemeta/mediaitem_list.html:30
 msgctxt "item list"
@@ -1829,11 +1830,11 @@ msgstr ""
 
 #: templates/telemeta/resource_confirm_delete.html:26
 msgid "No"
-msgstr ""
+msgstr "Não"
 
 #: templates/telemeta/resource_confirm_delete.html:28
 msgid "Yes"
-msgstr ""
+msgstr "Sim"
 
 #: templates/telemeta/resource_detail.html:140
 #: templates/telemeta/resource_detail_dc.html:33
@@ -2050,7 +2051,7 @@ msgstr ""
 
 #: templates/telemeta/registration/login.html:26
 msgid "login"
-msgstr ""
+msgstr "Login"
 
 #: templates/telemeta/registration/logout.html:3
 msgid "Logged out"
@@ -2167,15 +2168,15 @@ msgstr[1] ""
 
 #: util/locale_fix.py:5
 msgid "My last changes"
-msgstr ""
+msgstr "Meus recentes mudanças"
 
 #: util/locale_fix.py:6
 msgid "All last changes"
-msgstr ""
+msgstr "Mudanças recentes"
 
 #: util/locale_fix.py:7
 msgid "My searches"
-msgstr ""
+msgstr "A minha pesquisa"
 
 #: util/locale_fix.py:8
 msgid "Children"
@@ -2206,7 +2207,7 @@ msgstr ""
 
 #: views/feed.py:45
 msgid "Last changes"
-msgstr ""
+msgstr "Mudanças recentes"
 
 #: views/home.py:92
 msgid "Lists"
