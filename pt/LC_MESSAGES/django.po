@@ -246,19 +246,19 @@ msgstr "código"
 
 #: models/core.py:63 models/item.py:57 models/item.py:158
 msgid "none"
-msgstr ""
+msgstr "Dados privados"
 
 #: models/core.py:63 models/item.py:57
 msgid "metadata"
-msgstr ""
+msgstr "Acesso aos metadados"
 
 #: models/core.py:64
 msgid "mixed"
-msgstr ""
+msgstr "Acesso parcial para itens"
 
 #: models/core.py:64 models/item.py:58
 msgid "full"
-msgstr ""
+msgstr "O acesso do público"
 
 #: models/corpus.py:52
 msgid "collections"
@@ -266,7 +266,7 @@ msgstr "coleção"
 
 #: models/corpus.py:74 models/fonds.py:72
 msgid "total available duration"
-msgstr ""
+msgstr "O tempo total disponível"
 
 #: models/corpus.py:78 models/corpus.py:79 models/corpus.py:86
 #: models/fonds.py:52
