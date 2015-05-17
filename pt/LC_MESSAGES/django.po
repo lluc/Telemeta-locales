@@ -280,7 +280,7 @@ msgstr ""
 #: models/enum.py:44 models/enum.py:145 models/item.py:374
 #: models/system.py:105
 msgid "value"
-msgstr ""
+msgstr "valor"
 
 #: models/enum.py:45 models/identifier.py:53 models/instrument.py:45
 #: models/instrument.py:57
@@ -301,7 +301,7 @@ msgstr "estilo genérico"
 
 #: models/enum.py:131 models/item.py:348
 msgid "keyword"
-msgstr ""
+msgstr "palavra chave"
 
 #: models/enum.py:160 models/enum.py:166 models/item.py:84
 msgid "population / social group"
@@ -335,7 +335,7 @@ msgstr ""
 
 #: models/enum.py:229 models/format.py:66
 msgid "number of channels"
-msgstr ""
+msgstr "quantidade de banda"
 
 #: models/enum.py:239 models/item.py:94
 msgid "organization"
@@ -363,7 +363,7 @@ msgstr "escrever um termo válido"
 
 #: models/fonds.py:76 models/fonds.py:77 models/fonds.py:84
 msgid "fonds"
-msgstr ""
+msgstr "grupo de registros"
 
 #: models/fonds.py:88 models/fonds.py:89
 msgid "fonds related media"
@@ -522,27 +522,27 @@ msgstr "área cultural"
 
 #: models/item.py:82
 msgid "language"
-msgstr ""
+msgstr "língua"
 
 #: models/item.py:83 templates/telemeta/mediaitem_detail.html:259
 msgid "Language (ISO norm)"
-msgstr ""
+msgstr "língua (norma ISO)"
 
 #: models/item.py:85 templates/telemeta/mediaitem_detail.html:263
 msgid "Ethnographic context"
-msgstr ""
+msgstr "contexto etnográfico"
 
 #: models/item.py:88
 msgid "implementing rules"
-msgstr ""
+msgstr "modos de execução"
 
 #: models/item.py:91
 msgid "author / compositor"
-msgstr ""
+msgstr "autor / compositor"
 
 #: models/item.py:95
 msgid "depositor"
-msgstr ""
+msgstr "autor do depósito"
 
 #: models/item.py:99
 msgid "CollectionCode_ItemCode"
@@ -550,111 +550,111 @@ msgstr ""
 
 #: models/item.py:101
 msgid "item number"
-msgstr ""
+msgstr "número de item"
 
 #: models/item.py:102
 msgid "collector selection"
-msgstr ""
+msgstr "seleção do autor da gravação"
 
 #: models/item.py:103
 msgid "collector as in collection"
-msgstr ""
+msgstr "autor da gravação como na coleção"
 
 #: models/item.py:104
 msgid "creator reference"
-msgstr ""
+msgstr "referência do autor da gravação"
 
 #: models/item.py:105
 msgid "published references"
-msgstr ""
+msgstr "referências publicadas"
 
 #: models/item.py:107
 msgid "remarks"
-msgstr ""
+msgstr "comentários"
 
 #: models/item.py:111
 msgid "approximative duration"
-msgstr ""
+msgstr "duração aproximada"
 
 #: models/item.py:111
 msgid "hh:mm:ss"
-msgstr ""
+msgstr "hh:mm:ss"
 
 #: models/item.py:112
 msgid "mime type"
-msgstr ""
+msgstr "tipo de Mime"
 
 #: models/item.py:113 models/item.py:424 models/resource.py:108
 msgid "file"
-msgstr ""
+msgstr "arquivo"
 
 #: models/item.py:114
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: models/item.py:118
 msgid "digitalist"
-msgstr ""
+msgstr "operador de digitalização"
 
 #: models/item.py:119
 msgid "digitization date"
-msgstr ""
+msgstr "data de digitalização"
 
 #: models/item.py:120
 msgid "publishing date"
-msgstr ""
+msgstr "data de publicação"
 
 #: models/item.py:121
 msgid "scientist"
-msgstr ""
+msgstr "pesquisador responsável"
 
 #: models/item.py:123
 msgid "summary"
-msgstr ""
+msgstr "resumo"
 
 #: models/item.py:124
 msgid "contributor"
-msgstr ""
+msgstr "colaborador"
 
 #: models/item.py:137
 msgid "keywords"
-msgstr ""
+msgstr "palavra chave"
 
 #: models/item.py:227
 msgid "instruments"
-msgstr ""
+msgstr "instrumentos"
 
 #: models/item.py:234
 msgid "item size"
-msgstr ""
+msgstr "dimensão do item"
 
 #: models/item.py:341 models/item.py:342
 msgid "item related media"
-msgstr ""
+msgstr "mídia para o item"
 
 #: models/item.py:358
 msgid "composition"
-msgstr ""
+msgstr "instrumentação"
 
 #: models/item.py:359
 msgid "vernacular name"
-msgstr ""
+msgstr "nome vernáculo"
 
 #: models/item.py:360
 msgid "number"
-msgstr ""
+msgstr "número"
 
 #: models/item.py:361
 msgid "interprets"
-msgstr ""
+msgstr "intérpretes"
 
 #: models/item.py:372
 msgid "id"
-msgstr ""
+msgstr "id"
 
 #: models/item.py:375
 msgid "unit"
-msgstr ""
+msgstr "unidade"
 
 #: models/item.py:396 models/playlist.py:47 models/playlist.py:64
 msgid "public_id"
