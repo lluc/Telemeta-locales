@@ -2210,7 +2210,7 @@ msgstr "Mudanças recentes"
 
 #: views/home.py:92
 msgid "Lists"
-msgstr ""
+msgstr "Listas"
 
 #: views/item.py:460 views/item.py:537
 msgid "You have successfully updated your item."
@@ -2218,4 +2218,4 @@ msgstr ""
 
 #: views/item.py:515
 msgid "You have successfully added your item."
-msgstr ""
+msgstr "Você adicionou com sucesso o seu item."
