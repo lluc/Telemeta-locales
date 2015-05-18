@@ -222,15 +222,15 @@ msgstr "duração"
 
 #: models/collection.py:206
 msgid "collection size"
-msgstr ""
+msgstr "Tamanho de recolha"
 
 #: models/collection.py:210 templates/telemeta/mediaitem_list.html:28
 msgid "Unpublished"
-msgstr "no publicado"
+msgstr "No publicado"
 
 #: models/collection.py:212 templates/telemeta/mediaitem_list.html:29
 msgid "Published"
-msgstr "publicado"
+msgstr "Publicado"
 
 #: models/collection.py:282 models/collection.py:283
 msgid "collection related media"
@@ -275,7 +275,7 @@ msgstr "corpus"
 
 #: models/corpus.py:90 models/corpus.py:91
 msgid "corpus related media"
-msgstr ""
+msgstr "Mídia conectados à corpus"
 
 #: models/enum.py:44 models/enum.py:145 models/item.py:374
 #: models/system.py:105
@@ -367,7 +367,7 @@ msgstr "grupo de registros"
 
 #: models/fonds.py:88 models/fonds.py:89
 msgid "fonds related media"
-msgstr ""
+msgstr "Mídia conectados à fundos"
 
 #: models/format.py:53 models/item.py:165 models/item.py:323
 #: models/item.py:347 models/item.py:357 models/item.py:371 models/item.py:395
@@ -522,27 +522,27 @@ msgstr "área cultural"
 
 #: models/item.py:82
 msgid "language"
-msgstr "língua"
+msgstr "Língua"
 
 #: models/item.py:83 templates/telemeta/mediaitem_detail.html:259
 msgid "Language (ISO norm)"
-msgstr "língua (norma ISO)"
+msgstr "Língua (norma ISO)"
 
 #: models/item.py:85 templates/telemeta/mediaitem_detail.html:263
 msgid "Ethnographic context"
-msgstr "contexto etnográfico"
+msgstr "Contexto etnográfico"
 
 #: models/item.py:88
 msgid "implementing rules"
-msgstr "modos de execução"
+msgstr "Modos de execução"
 
 #: models/item.py:91
 msgid "author / compositor"
-msgstr "autor / compositor"
+msgstr "Autor / compositor"
 
 #: models/item.py:95
 msgid "depositor"
-msgstr "autor do depósito"
+msgstr "Autor do depósito"
 
 #: models/item.py:99
 msgid "CollectionCode_ItemCode"
@@ -550,11 +550,11 @@ msgstr ""
 
 #: models/item.py:101
 msgid "item number"
-msgstr "número de item"
+msgstr "Número de item"
 
 #: models/item.py:102
 msgid "collector selection"
-msgstr "seleção do autor da gravação"
+msgstr "Seleção do autor da gravação"
 
 #: models/item.py:103
 msgid "collector as in collection"
@@ -658,7 +658,7 @@ msgstr "unidade"
 
 #: models/item.py:396 models/playlist.py:47 models/playlist.py:64
 msgid "public_id"
-msgstr ""
+msgstr "publico_id"
 
 #: models/item.py:397
 msgid "time (s)"
@@ -675,7 +675,7 @@ msgstr "autor"
 
 #: models/item.py:421 models/item.py:455 models/resource.py:105
 msgid "mime_type"
-msgstr ""
+msgstr "mime_tipo"
 
 #: models/item.py:423
 msgid "status"
@@ -687,11 +687,11 @@ msgstr "transcodificada"
 
 #: models/item.py:470
 msgid "item identifier"
-msgstr ""
+msgstr "item login"
 
 #: models/item.py:471
 msgid "item identifiers"
-msgstr ""
+msgstr "item login"
 
 #: models/item.py:480
 msgid "start"
@@ -719,7 +719,7 @@ msgstr ""
 
 #: models/language.py:52
 msgid "scope"
-msgstr ""
+msgstr "escopo"
 
 #: models/language.py:63
 msgid "languages"
@@ -909,8 +909,7 @@ msgstr "Cesta"
 
 #: templates/postman/base_folder.html:8
 msgid "Sorry, this page number is invalid."
-msgstr "
-Desculpe, este número da página é inválido"
+msgstr "Desculpe, este número da página é inválido"
 
 #: templates/postman/base_folder.html:13
 msgid "by conversation"
@@ -963,7 +962,7 @@ msgstr "arquivo"
 
 #: templates/postman/base_folder.html:51
 msgid "Undelete"
-msgstr ""
+msgstr "Undelete"
 
 #: templates/postman/base_folder.html:57
 msgid "No messages."
@@ -1725,7 +1724,7 @@ msgstr ""
 
 #: templates/telemeta/mediaitem_edit.html:95
 msgid "Format"
-msgstr ""
+msgstr "Formato"
 
 #: templates/telemeta/mediaitem_edit.html:107
 msgid "Collection access status"
@@ -1816,17 +1815,17 @@ msgstr "Língua"
 
 #: templates/telemeta/profile_detail.html:64
 msgid "Apply"
-msgstr ""
+msgstr "Aplicar"
 
 #: templates/telemeta/profile_detail.html:75
 #: templates/telemeta/registration/password_change_form.html:3
 #: templates/telemeta/registration/password_change_form.html:12
 msgid "Change password"
-msgstr ""
+msgstr "Alterar a senha"
 
 #: templates/telemeta/resource_confirm_delete.html:20
 msgid "Delete the resource permanently?"
-msgstr ""
+msgstr "Apagar dados permanentemente?"
 
 #: templates/telemeta/resource_confirm_delete.html:26
 msgid "No"
@@ -1844,13 +1843,13 @@ msgstr ""
 #: templates/telemeta/search_criteria.html:5
 #: templates/telemeta/search_criteria.html:85
 msgid "Advanced Search"
-msgstr ""
+msgstr "Pesquisa avançada"
 
 #: templates/telemeta/search_criteria.html:132
 #: templates/telemeta/search_results.html:68
 #: templates/telemeta/inc/mediaitem_list.html:16
 msgid "Year of recording"
-msgstr "ano de gravação"
+msgstr "Ano de gravação"
 
 #: templates/telemeta/search_criteria.html:139
 #: templates/telemeta/search_criteria.html:158
@@ -1872,7 +1871,7 @@ msgstr "Os resultados da pesquisa"
 #: templates/telemeta/search_results.html:28
 #: templates/telemeta/search_results.html:37
 msgid "Sounds"
-msgstr ""
+msgstr "Sons"
 
 #: templates/telemeta/search_results.html:47
 msgid "Search pattern"
@@ -1880,7 +1879,7 @@ msgstr ""
 
 #: templates/telemeta/search_results.html:82
 msgid "Sound"
-msgstr ""
+msgstr "Som"
 
 #: templates/telemeta/inc/children_list.html:8
 #, python-format
@@ -1923,7 +1922,7 @@ msgstr "Dublin Core Metadata"
 
 #: templates/telemeta/inc/mediaitem_list.html:14
 msgid "Country/Continent"
-msgstr ""
+msgstr "País / continente"
 
 #: templates/telemeta/inc/mediaitem_list.html:53
 msgid "No item"
