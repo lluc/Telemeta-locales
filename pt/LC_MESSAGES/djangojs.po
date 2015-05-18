@@ -20,11 +20,11 @@ msgstr ""
 
 #: static/telemeta/js/locale.js:2
 msgid "title"
-msgstr ""
+msgstr "Titulo"
 
 #: static/telemeta/js/locale.js:3
 msgid "description"
-msgstr ""
+msgstr "descrição"
 
 #: static/telemeta/js/locale.js:4
 msgid "delete the marker permanently?"
