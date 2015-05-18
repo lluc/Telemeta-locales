@@ -1729,7 +1729,7 @@ msgstr ""
 
 #: templates/telemeta/mediaitem_edit.html:107
 msgid "Collection access status"
-msgstr ""
+msgstr "Status da coleção"
 
 #: templates/telemeta/mediaitem_edit.html:108
 msgid "Context access status"
@@ -1756,11 +1756,11 @@ msgstr ""
 
 #: templates/telemeta/paginator.html:5
 msgid "Previous"
-msgstr ""
+msgstr "Anterior"
 
 #: templates/telemeta/paginator.html:23
 msgid "Next"
-msgstr ""
+msgstr "Proximo"
 
 #: templates/telemeta/profile_detail.html:5
 msgid "User Profile"
@@ -1772,21 +1772,21 @@ msgstr ""
 
 #: templates/telemeta/profile_detail.html:16
 msgid "Playlists"
-msgstr ""
+msgstr "Playlists"
 
 #: templates/telemeta/profile_detail.html:39
 #: templates/telemeta/inc/user_list.html:8
 msgid "First Name"
-msgstr ""
+msgstr "Primeiro nome"
 
 #: templates/telemeta/profile_detail.html:40
 #: templates/telemeta/inc/user_list.html:7
 msgid "Last Name"
-msgstr ""
+msgstr "Sobrenome"
 
 #: templates/telemeta/profile_detail.html:41
 msgid "Email"
-msgstr ""
+msgstr "Email"
 
 #: templates/telemeta/profile_detail.html:49
 msgid "Expiration date"
@@ -1812,7 +1812,7 @@ msgstr ""
 
 #: templates/telemeta/profile_detail.html:56
 msgid "Language"
-msgstr ""
+msgstr "Língua"
 
 #: templates/telemeta/profile_detail.html:64
 msgid "Apply"
@@ -1850,24 +1850,24 @@ msgstr ""
 #: templates/telemeta/search_results.html:68
 #: templates/telemeta/inc/mediaitem_list.html:16
 msgid "Year of recording"
-msgstr ""
+msgstr "ano de gravação"
 
 #: templates/telemeta/search_criteria.html:139
 #: templates/telemeta/search_criteria.html:158
 #: templates/telemeta/search_results.html:70
 #: templates/telemeta/search_results.html:77
 msgid "to"
-msgstr ""
+msgstr "para"
 
 #: templates/telemeta/search_criteria.html:151
 #: templates/telemeta/search_results.html:75
 msgid "Year of publication"
-msgstr ""
+msgstr "Ano de publicação"
 
 #: templates/telemeta/search_results.html:6
 #: templates/telemeta/search_results.html:11
 msgid "Search Results"
-msgstr ""
+msgstr "Os resultados da pesquisa"
 
 #: templates/telemeta/search_results.html:28
 #: templates/telemeta/search_results.html:37
@@ -1892,34 +1892,34 @@ msgstr ""
 #: templates/telemeta/inc/children_list.html:39
 #: templates/telemeta/inc/resource_list.html:31
 msgid "No resource"
-msgstr ""
+msgstr "Sem dados"
 
 #: templates/telemeta/inc/collection_list.html:43
 msgid "No collection"
-msgstr ""
+msgstr "Nenhuma coleção"
 
 #: templates/telemeta/inc/collection_related.html:13
 #: templates/telemeta/inc/mediaitem_related.html:13
 #: templates/telemeta/inc/resource_related.html:13
 msgid "Preview"
-msgstr ""
+msgstr "Anterior"
 
 #: templates/telemeta/inc/collection_related.html:41
 #: templates/telemeta/inc/mediaitem_related.html:32
 #: templates/telemeta/inc/resource_related.html:41
 msgid "Credits"
-msgstr ""
+msgstr "Créditos"
 
 #: templates/telemeta/inc/collection_related.html:45
 #: templates/telemeta/inc/mediaitem_related.html:36
 #: templates/telemeta/inc/resource_related.html:45
 #: templates/telemeta/registration/registration_complete.html:23
 msgid "Download"
-msgstr ""
+msgstr "Baixar"
 
 #: templates/telemeta/inc/dublincore.html:4
 msgid "Dublin Core Metadata"
-msgstr ""
+msgstr "Dublin Core Metadata"
 
 #: templates/telemeta/inc/mediaitem_list.html:14
 msgid "Country/Continent"
@@ -1927,20 +1927,20 @@ msgstr ""
 
 #: templates/telemeta/inc/mediaitem_list.html:53
 msgid "No item"
-msgstr ""
+msgstr "nenhuns itens"
 
 #: templates/telemeta/inc/module_revisions.html:19
 #: templates/telemeta/inc/user_list.html:9
 msgid "User"
-msgstr ""
+msgstr "Usuários"
 
 #: templates/telemeta/inc/module_searches.html:13
 msgid "Criteria"
-msgstr ""
+msgstr "Critérios"
 
 #: templates/telemeta/inc/user_list.html:10
 msgid "E-mail"
-msgstr ""
+msgstr "E-mail"
 
 #: templates/telemeta/inc/user_list.html:11
 msgid "Date added"
@@ -1948,16 +1948,16 @@ msgstr ""
 
 #: templates/telemeta/inc/user_list.html:12
 msgid "Groups"
-msgstr ""
+msgstr "Grupo"
 
 #: templates/telemeta/registration/activate.html:3
 #: templates/telemeta/registration/activation_complete.html:3
 msgid "Activation complete"
-msgstr ""
+msgstr "Ativação feita"
 
 #: templates/telemeta/registration/activate.html:3
 msgid "Activation problem"
-msgstr ""
+msgstr "problema de ativação"
 
 #: templates/telemeta/registration/activate.html:7
 #, python-format
@@ -2036,11 +2036,11 @@ msgstr ""
 
 #: templates/telemeta/registration/logged_out.html:8
 msgid "Log in again"
-msgstr ""
+msgstr "Login novamente"
 
 #: templates/telemeta/registration/login.html:3
 msgid "Login"
-msgstr ""
+msgstr "Login"
 
 #: templates/telemeta/registration/login.html:23
 #, python-format
@@ -2055,23 +2055,23 @@ msgstr "Login"
 
 #: templates/telemeta/registration/logout.html:3
 msgid "Logged out"
-msgstr ""
+msgstr "Desconectado"
 
 #: templates/telemeta/registration/logout.html:5
 msgid "Successfully logged out!"
-msgstr ""
+msgstr "Desconectado com sucesso"
 
 #: templates/telemeta/registration/password_change_done.html:3
 msgid "Password changed"
-msgstr ""
+msgstr "Senha alterada"
 
 #: templates/telemeta/registration/password_change_done.html:5
 msgid "Password successfully changed!"
-msgstr ""
+msgstr "Senha alterada com sucesso"
 
 #: templates/telemeta/registration/password_reset_complete.html:3
 msgid "Password reset complete"
-msgstr ""
+msgstr "Redefinição de senha completa"
 
 #: templates/telemeta/registration/password_reset_complete.html:4
 #, python-format
@@ -2083,19 +2083,19 @@ msgstr ""
 
 #: templates/telemeta/registration/password_reset_confirm.html:3
 msgid "Confirm password reset"
-msgstr ""
+msgstr "Confirme redefinição de senha"
 
 #: templates/telemeta/registration/password_reset_confirm.html:5
 msgid "Enter your new password below to reset your password:"
-msgstr ""
+msgstr "Digite sua nova senha abaixo para redefinir sua senha:"
 
 #: templates/telemeta/registration/password_reset_confirm.html:9
 msgid "Set password"
-msgstr ""
+msgstr "Conjunto senha"
 
 #: templates/telemeta/registration/password_reset_done.html:3
 msgid "Password reset"
-msgstr ""
+msgstr "Redefinição de senha"
 
 #: templates/telemeta/registration/password_reset_done.html:6
 msgid ""
@@ -2133,7 +2133,7 @@ msgstr ""
 #: templates/telemeta/registration/password_reset_form.html:3
 #: templates/telemeta/registration/password_reset_form.html:14
 msgid "Reset password"
-msgstr ""
+msgstr "Redefinição de senha"
 
 #: templates/telemeta/registration/password_reset_form.html:4
 msgid ""
