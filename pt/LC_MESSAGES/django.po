@@ -1789,15 +1789,15 @@ msgstr "Email"
 
 #: templates/telemeta/profile_detail.html:49
 msgid "Expiration date"
-msgstr ""
+msgstr "Data de validade"
 
 #: templates/telemeta/profile_detail.html:51
 msgid "Is staff"
-msgstr ""
+msgstr "é pessoal"
 
 #: templates/telemeta/profile_detail.html:52
 msgid "Is superuser"
-msgstr ""
+msgstr "é super usuário"
 
 #: templates/telemeta/profile_detail.html:53
 msgid "Group"
@@ -1807,7 +1807,7 @@ msgstr[1] ""
 
 #: templates/telemeta/profile_detail.html:54
 msgid "Last login"
-msgstr ""
+msgstr "Ultimo login"
 
 #: templates/telemeta/profile_detail.html:56
 msgid "Language"
