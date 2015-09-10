@@ -1413,9 +1413,6 @@ msgstr "Énumérations"
 #: templates/telemeta/inc/module_revisions.html:17
 #: templates/telemeta/inc/resource_list.html:8
 #: templates/telemeta/inc/resource_related.html:21
-#: templates/telemeta/lists.html:74
-#: templates/telemeta/search_criteria.html:116
-#: templates/telemeta/search_results.html:65
 msgid "Title"
 msgstr "Titre"
 
@@ -1680,11 +1677,11 @@ msgid "Save"
 msgstr "Enregistrer"
 
 #: templates/telemeta/collection_edit.html:37
+#: templates/telemeta/mediaitem_edit.html:91
+#: templates/telemeta/resource_edit.html:39
 #: templates/telemeta/inc/collection_related.html:6
 #: templates/telemeta/inc/mediaitem_related.html:6
 #: templates/telemeta/inc/resource_related.html:6
-#: templates/telemeta/mediaitem_edit.html:91
-#: templates/telemeta/resource_edit.html:39
 msgid "Related media"
 msgstr "Média associés"
 
@@ -1722,18 +1719,13 @@ msgid "Add"
 msgstr "Ajouter"
 
 #: templates/telemeta/collection_related_edit.html:25
+#: templates/telemeta/mediaitem_related_edit.html:24
+#: templates/telemeta/resource_related_edit.html:24
 #: templates/telemeta/inc/collection_related.html:12
 #: templates/telemeta/inc/mediaitem_related.html:12
 #: templates/telemeta/inc/resource_related.html:12
-#: templates/telemeta/mediaitem_related_edit.html:24
-#: templates/telemeta/resource_related_edit.html:24
 msgid "Media"
 msgstr "Média"
-
-#: templates/telemeta/corpus_epub_password.html:22
-#, fuzzy
-msgid "Password verification"
-msgstr "Mot de passe (encore)"
 
 #: templates/telemeta/country_info.html:9
 msgid "in"
@@ -1856,134 +1848,6 @@ msgstr "Accéder au navigateur géographique"
 msgid "Partners"
 msgstr "Partenaires"
 
-#: templates/telemeta/inc/children_list.html:8
-#: templates/telemeta/inc/epub_list.html:8
-#, python-format
-msgid ""
-"%(resource.children_type|capitalize)s %(first_on_page)s to %(last_on_page)s "
-"on %(hits)s"
-msgstr ""
-"%(resource.children_type|capitalize)s %(first_on_page)s à %(last_on_page)s "
-"sur %(hits)s"
-
-#: templates/telemeta/inc/children_list.html:16
-#: templates/telemeta/inc/collection_list.html:9
-#: templates/telemeta/inc/mediaitem_list.html:9
-#: templates/telemeta/inc/resource_list.html:9
-#: templates/telemeta/lists.html:79
-#: templates/telemeta/search_criteria.html:168
-msgid "Digitized"
-msgstr "Numérisé"
-
-#: templates/telemeta/inc/children_list.html:18
-#: templates/telemeta/inc/collection_list.html:13
-#: templates/telemeta/inc/mediaitem_list.html:17
-#: templates/telemeta/inc/resource_list.html:11
-#: templates/telemeta/lists.html:76
-msgid "Code"
-msgstr "Cote"
-
-#: templates/telemeta/inc/children_list.html:39
-#: templates/telemeta/inc/epub_list.html:34
-#: templates/telemeta/inc/resource_list.html:31
-msgid "No resource"
-msgstr "Aucune ressource"
-
-#: templates/telemeta/inc/collection_list.html:43
-msgid "No collection"
-msgstr "Aucune collection"
-
-#: templates/telemeta/inc/collection_related.html:13
-#: templates/telemeta/inc/mediaitem_related.html:13
-#: templates/telemeta/inc/resource_related.html:13
-msgid "Preview"
-msgstr "Prévisualisation"
-
-#: templates/telemeta/inc/collection_related.html:41
-#: templates/telemeta/inc/mediaitem_related.html:32
-#: templates/telemeta/inc/resource_related.html:41
-msgid "Credits"
-msgstr "Crédits"
-
-#: templates/telemeta/inc/collection_related.html:45
-#: templates/telemeta/inc/epub_list.html:23
-#: templates/telemeta/inc/mediaitem_related.html:36
-#: templates/telemeta/inc/resource_related.html:45
-#: templates/telemeta/registration/registration_complete.html:23
-#: templates/telemeta/resource_epub_list.html:18
-msgid "Download"
-msgstr "Télécharger"
-
-#: templates/telemeta/inc/dublincore.html:4
-msgid "Dublin Core Metadata"
-msgstr "Métadonnées Dublin Core"
-
-#: templates/telemeta/inc/epub_preamble.html:6
-#, fuzzy
-#| msgid "rights"
-msgid "Copyright"
-msgstr "droits"
-
-#: templates/telemeta/inc/mediaitem_list.html:12
-#: templates/telemeta/mediaitem_detail.html:253
-msgid "Location"
-msgstr "Lieu"
-
-#: templates/telemeta/inc/mediaitem_list.html:14
-msgid "Country/Continent"
-msgstr "Etat/Continent"
-
-#: templates/telemeta/inc/mediaitem_list.html:16
-#: templates/telemeta/search_criteria.html:132
-#: templates/telemeta/search_results.html:68
-msgid "Year of recording"
-msgstr "Année d'enregistrement"
-
-#: templates/telemeta/inc/mediaitem_list.html:53
-msgid "No item"
-msgstr "Aucun item"
-
-#: templates/telemeta/inc/module_revisions.html:18
-#: templates/telemeta/lists.html:75
-msgid "Type"
-msgstr "Type"
-
-#: templates/telemeta/inc/module_revisions.html:19
-#: templates/telemeta/inc/user_list.html:9
-msgid "User"
-msgstr "Utilisateur"
-
-#: templates/telemeta/inc/module_revisions.html:40
-#: templates/telemeta/lists.html:97
-msgid "deleted"
-msgstr "supprimé"
-
-#: templates/telemeta/inc/module_searches.html:13
-msgid "Criteria"
-msgstr "Critères"
-
-#: templates/telemeta/inc/user_list.html:7
-#: templates/telemeta/profile_detail.html:40
-msgid "Last Name"
-msgstr "Nom"
-
-#: templates/telemeta/inc/user_list.html:8
-#: templates/telemeta/profile_detail.html:39
-msgid "First Name"
-msgstr "Prénom"
-
-#: templates/telemeta/inc/user_list.html:10
-msgid "E-mail"
-msgstr "Courriel"
-
-#: templates/telemeta/inc/user_list.html:11
-msgid "Date added"
-msgstr "Date d'ajout"
-
-#: templates/telemeta/inc/user_list.html:12
-msgid "Groups"
-msgstr "Groupes"
-
 #: templates/telemeta/instrument_alias_edit.html:16
 #: templates/telemeta/instrument_alias_edit.html:30
 #: templates/telemeta/instrument_alias_edit_value.html:30
@@ -2020,7 +1884,6 @@ msgstr "Identification"
 #: templates/telemeta/login.html:29
 #: templates/telemeta/resource_epub_login.html:29
 #: templates/telemeta/registration/login.html:9
-#: templates/telemeta/resource_epub_login.html:29
 msgid "Your username and password didn't match. Please try again."
 msgstr ""
 "Vos nom d'utilisateur et/ou mot de passe sont incorrects. Essayez à nouveau."
@@ -2157,6 +2020,16 @@ msgstr "Profil utilisateur"
 #: templates/telemeta/profile_detail.html:16
 msgid "Playlists"
 msgstr "Listes de lecture"
+
+#: templates/telemeta/profile_detail.html:39
+#: templates/telemeta/inc/user_list.html:8
+msgid "First Name"
+msgstr "Prénom"
+
+#: templates/telemeta/profile_detail.html:40
+#: templates/telemeta/inc/user_list.html:7
+msgid "Last Name"
+msgstr "Nom"
 
 #: templates/telemeta/profile_detail.html:41
 msgid "Email"
@@ -2741,6 +2614,10 @@ msgstr ""
 #, fuzzy
 #~ msgid "channel number"
 #~ msgstr "n° de l'item"
+
+#, fuzzy
+#~ msgid "Password initialization"
+#~ msgstr "Mot de passe (encore)"
 
 #~ msgid "support number"
 #~ msgstr "n° du support"
