@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-10 14:27+0200\n"
+"POT-Creation-Date: 2015-09-13 21:13+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Guillaume Pellerin <yomguy@parisson.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1473,7 +1473,7 @@ msgstr "Collections"
 msgid "Items"
 msgstr "Items"
 
-#: templates/telemeta/base.html:125 templates/telemeta/home.html:31
+#: templates/telemeta/base.html:125 templates/telemeta/home.html:19
 msgid "Geo Navigator"
 msgstr "Géo-Navigateur"
 
@@ -1833,20 +1833,21 @@ msgstr[0] "1 item"
 msgstr[1] "%(counter)s items "
 
 #: templates/telemeta/home.html:13
-msgid "Access to free public sound items"
+#, fuzzy
+msgid "Access to free    public sound items"
 msgstr "Accéder aux items consultables en libre accès"
 
-#: templates/telemeta/home.html:20 templates/telemeta/home.html.py:73
-msgid "Musical selection"
-msgstr "Sélection musicale"
-
-#: templates/telemeta/home.html:34
+#: templates/telemeta/home.html:22
 msgid "Open the geographic navigator"
 msgstr "Accéder au navigateur géographique"
 
-#: templates/telemeta/home.html:47
+#: templates/telemeta/home.html:35
 msgid "Partners"
 msgstr "Partenaires"
+
+#: templates/telemeta/home.html:61
+msgid "Musical selection"
+msgstr "Sélection musicale"
 
 #: templates/telemeta/instrument_alias_edit.html:16
 #: templates/telemeta/instrument_alias_edit.html:30
@@ -2473,11 +2474,11 @@ msgstr "Dernières modifications"
 msgid "Lists"
 msgstr "Listes"
 
-#: views/item.py:482 views/item.py:560
+#: views/item.py:481 views/item.py:559
 msgid "You have successfully updated your item."
 msgstr ""
 
-#: views/item.py:538
+#: views/item.py:537
 msgid "You have successfully added your item."
 msgstr ""
 
