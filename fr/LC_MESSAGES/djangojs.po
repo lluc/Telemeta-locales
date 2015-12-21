@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-13 21:13+0200\n"
+"POT-Creation-Date: 2015-12-22 00:12+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Guillaume Pellerin <yomguy@parisson.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -77,3 +77,7 @@ msgstr "supprimer la liste de lecture définitivement ?"
 #: static/telemeta/js/locale.js:16
 msgid "delete the resource from the playlist permanently?"
 msgstr "supprimer la ressource de la liste de lecture définitivement ?"
+
+#: static/telemeta/lib/jquery/jquery-ui.min.js:10
+msgid "'"
+msgstr ""
