@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the Telemeta package.
 # Olivier Guilyardi <olivier samalyse com>, 2010.
 #
-#, fuzzy
+
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -50,17 +50,17 @@ msgid "recording date (from)"
 msgstr "date d'enregistrement (depuis)"
 
 #: forms/haystack_form.py:116
-#, fuzzy
+
 msgid "recording date (until"
 msgstr "date d'enregistrement (jusqu'à)"
 
 #: forms/haystack_form.py:139
-#, fuzzy
+
 msgid "year published from"
 msgstr "année de parution"
 
 #: forms/haystack_form.py:140
-#, fuzzy
+
 msgid "year published to"
 msgstr "année de parution"
 
@@ -74,7 +74,7 @@ msgid "Document status"
 msgstr "Statut du document"
 
 #: forms/haystack_form.py:156
-#, fuzzy
+
 msgid "media"
 msgstr "Média"
 
@@ -92,7 +92,7 @@ msgid "code"
 msgstr "cote"
 
 #: forms/media.py:168
-#, fuzzy
+
 msgid "password"
 msgstr "Mot de passe oublié"
 
@@ -261,7 +261,7 @@ msgid "copies (obsolete field)"
 msgstr ""
 
 #: models/collection.py:124
-#, fuzzy
+
 msgid "archiver notes (obsolete field)"
 msgstr "notes de l'archiviste"
 
@@ -845,7 +845,7 @@ msgid "Private data"
 msgstr "Données privées"
 
 #: models/resource.py:75
-#, fuzzy
+
 msgid "description_old"
 msgstr "description"
 
@@ -927,7 +927,7 @@ msgid "criteria"
 msgstr "critères"
 
 #: templates/postman/archives.html:3
-#, fuzzy
+
 msgid "Archived Messages"
 msgstr "Archives"
 
@@ -1152,12 +1152,12 @@ msgid "Add to playlist"
 msgstr "Ajouter à la liste"
 
 #: templates/search/addplaylist.html:19
-#, fuzzy
+
 msgid "Selected items : "
 msgstr "Supprimer les éléments sélectionnés"
 
 #: templates/search/addplaylist.html:58
-#, fuzzy
+
 msgid "Add to Playlist"
 msgstr "Ajouter à la liste"
 
@@ -1176,14 +1176,14 @@ msgstr "Recherche"
 #: templates/search/advanceSearch.html:99
 #: templates/search/advanceSearch.html:104
 #: templates/search/advanceSearch.html:108
-#, fuzzy
+
 msgid "no preference"
 msgstr "référence de l'éditeur"
 
 #: templates/search/advanceSearch.html:50
 #: templates/search/advanceSearch.html:55
 #: templates/search/advanceSearch.html:59
-#, fuzzy
+
 msgid "audio"
 msgstr "Audio"
 
@@ -1225,12 +1225,12 @@ msgid "results per page"
 msgstr ""
 
 #: templates/search/confirmation_add_playslist.html:6
-#, fuzzy
+
 msgid "Playlist Confirmation"
 msgstr "Dernière modification de la fiche"
 
 #: templates/search/confirmation_add_playslist.html:11
-#, fuzzy
+
 msgid "Added to playlist : "
 msgstr "Ajouter à la liste"
 
@@ -1242,7 +1242,7 @@ msgid "Filters"
 msgstr "Filtres"
 
 #: templates/search/filters.html:10 templates/search/filters.html.py:21
-#, fuzzy
+
 msgid "Item Status"
 msgstr "Statut d'accès de l'item"
 
@@ -1253,7 +1253,7 @@ msgid "None"
 msgstr ""
 
 #: templates/search/filters.html:27 templates/search/filters.html.py:37
-#, fuzzy
+
 msgid "Player Status"
 msgstr "Statut d'accès de l'item"
 
@@ -1262,17 +1262,17 @@ msgid "Sound"
 msgstr "Sonore"
 
 #: templates/search/filters.html:43 templates/search/filters.html.py:60
-#, fuzzy
+
 msgid "Access Right"
 msgstr "Type d'accès"
 
 #: templates/search/filters.html:67
-#, fuzzy
+
 msgid "Other Filters"
 msgstr "Filtres"
 
 #: templates/search/filters.html:72
-#, fuzzy
+
 msgid "Media Type"
 msgstr "Type de media"
 
@@ -1285,7 +1285,7 @@ msgid "Audio"
 msgstr "Audio"
 
 #: templates/search/filters.html:92
-#, fuzzy
+
 msgid "Recording Context"
 msgstr "contexte d'enregistrement"
 
@@ -1298,12 +1298,12 @@ msgid "Radio"
 msgstr ""
 
 #: templates/search/filters.html:111
-#, fuzzy
+
 msgid "Studio"
 msgstr "Audio"
 
 #: templates/search/filters.html:117
-#, fuzzy
+
 msgid "Physical Format"
 msgstr "nature du support original"
 
@@ -1834,7 +1834,7 @@ msgstr[0] "1 item"
 msgstr[1] "%(counter)s items "
 
 #: templates/telemeta/home.html:13
-#, fuzzy
+
 msgid "Access to free    public sound items"
 msgstr "Accéder aux items consultables en libre accès"
 
@@ -1892,7 +1892,7 @@ msgid "Dublin Core Metadata"
 msgstr "Métadonnées Dublin Core"
 
 #: templates/telemeta/inc/epub_preamble.html:6
-#, fuzzy
+
 msgid "Copyright"
 msgstr "droits"
 
@@ -2508,7 +2508,7 @@ msgid "You have successfully added your item."
 msgstr ""
 
 #: views/resource.py:368
-#, fuzzy
+
 msgid "Bad password, please try again."
 msgstr ""
 "Vos nom d'utilisateur et/ou mot de passe sont incorrects. Essayez à nouveau."
@@ -2541,7 +2541,7 @@ msgstr ""
 #~ msgid "No such collection"
 #~ msgstr "Aucune collection de ce type"
 
-#, fuzzy
+
 #~ msgid "comments"
 #~ msgstr "commentaire"
 
@@ -2627,7 +2627,7 @@ msgstr ""
 #~ msgid "attachment"
 #~ msgstr "rattachement"
 
-#, fuzzy
+
 #~ msgid "lieux types"
 #~ msgstr "lieux types"
 
@@ -2637,11 +2637,11 @@ msgstr ""
 #~ msgid "domain"
 #~ msgstr "discipline"
 
-#, fuzzy
+
 #~ msgid "channel number"
 #~ msgstr "n° de l'item"
 
-#, fuzzy
+
 #~ msgid "Password initialization"
 #~ msgstr "Mot de passe (encore)"
 
@@ -2678,7 +2678,7 @@ msgstr ""
 #~ msgid "phone"
 #~ msgstr "téléphone"
 
-#, fuzzy
+
 #~ msgid "email"
 #~ msgstr "Courriel"
 

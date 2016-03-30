@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the Telemeta package.
 # Guillaume Pellerin <yomguy@parisson.com>, 2011.
 #
-#, fuzzy
+
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
