@@ -1195,19 +1195,19 @@ msgstr ""
 
 #: templates/search/advanceSearch.html:68
 msgid "Available for consultation media"
-msgstr ""
+msgstr "Disponibilité du média"
 
 #: templates/search/advanceSearch.html:72
 #: templates/search/advanceSearch.html:77
 #: templates/search/advanceSearch.html:81
 msgid "online and public"
-msgstr ""
+msgstr "en ligne et public"
 
 #: templates/search/advanceSearch.html:73
 #: templates/search/advanceSearch.html:78
 #: templates/search/advanceSearch.html:82
 msgid "online (account required)"
-msgstr ""
+msgstr "Accessible avec un compte"
 
 #: templates/search/advanceSearch.html:91
 #: templates/telemeta/mediaitem_detail.html:230
@@ -1222,7 +1222,7 @@ msgstr "Résultats de recherche"
 
 #: templates/search/advanceSearch.html:163 templates/search/search.html:34
 msgid "results per page"
-msgstr ""
+msgstr "Résultats par page"
 
 #: templates/search/confirmation_add_playslist.html:6
 
