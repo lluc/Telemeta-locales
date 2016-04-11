@@ -589,7 +589,7 @@ msgstr "Contexte ethnographique"
 
 #: models/item.py:88
 msgid "implementing rules"
-msgstr "modalités d'exécution"
+msgstr "Modalités d'exécution"
 
 #: models/item.py:91
 msgid "author / compositor"
@@ -609,7 +609,7 @@ msgstr "n° de l'item"
 
 #: models/item.py:102
 msgid "collector selection"
-msgstr "sélection collecteur"
+msgstr "Sélection collecteur"
 
 #: models/item.py:103
 msgid "collector as in collection"
@@ -617,11 +617,11 @@ msgstr "collecteur identique à la collection"
 
 #: models/item.py:104
 msgid "creator reference"
-msgstr "référence du collecteur"
+msgstr "Référence du collecteur"
 
 #: models/item.py:105
 msgid "published references"
-msgstr "références éditées"
+msgstr "Références éditées"
 
 #: models/item.py:107
 msgid "remarks"
@@ -653,7 +653,7 @@ msgstr "opérateur de numérisation"
 
 #: models/item.py:119
 msgid "digitization date"
-msgstr "date de numérisation"
+msgstr "Date de numérisation"
 
 #: models/item.py:120
 msgid "publishing date"
@@ -673,15 +673,15 @@ msgstr "intervenant"
 
 #: models/item.py:144
 msgid "keywords"
-msgstr "mots-clés"
+msgstr "Mots-clés"
 
 #: models/item.py:241
 msgid "item size"
-msgstr "taille de l'item"
+msgstr "Taille de l'item"
 
 #: models/item.py:372 models/item.py:373
 msgid "item related media"
-msgstr "média associés à l'item"
+msgstr "Média associés à l'item"
 
 #: models/item.py:389
 msgid "composition"
@@ -689,7 +689,7 @@ msgstr "Voix / Instruments"
 
 #: models/item.py:390
 msgid "vernacular name"
-msgstr "nom vernaculaire"
+msgstr "Nom vernaculaire"
 
 #: models/item.py:391
 msgid "number"
@@ -718,7 +718,7 @@ msgstr "temps (s)"
 #: models/item.py:430 models/item.py:453 models/item.py:487
 #: models/resource.py:103 models/system.py:117
 msgid "date"
-msgstr ""
+msgstr "Date"
 
 #: models/item.py:432
 msgid "author"
@@ -822,7 +822,7 @@ msgstr "lieux relations"
 
 #: models/playlist.py:65
 msgid "playlist"
-msgstr "liste de lecture"
+msgstr "Liste de lecture"
 
 #: models/playlist.py:66
 msgid "resource_type"
@@ -1178,7 +1178,7 @@ msgstr "Recherche"
 #: templates/search/advanceSearch.html:108
 
 msgid "no preference"
-msgstr "référence de l'éditeur"
+msgstr "Sans préférence"
 
 #: templates/search/advanceSearch.html:50
 #: templates/search/advanceSearch.html:55
@@ -1191,7 +1191,7 @@ msgstr "Audio"
 #: templates/search/advanceSearch.html:56
 #: templates/search/advanceSearch.html:60
 msgid "video"
-msgstr ""
+msgstr "Vidéo"
 
 #: templates/search/advanceSearch.html:68
 msgid "Available for consultation media"
@@ -1201,7 +1201,7 @@ msgstr "Disponibilité du média"
 #: templates/search/advanceSearch.html:77
 #: templates/search/advanceSearch.html:81
 msgid "online and public"
-msgstr "en ligne et public"
+msgstr "En ligne et public"
 
 #: templates/search/advanceSearch.html:73
 #: templates/search/advanceSearch.html:78
@@ -1278,7 +1278,7 @@ msgstr "Type de media"
 
 #: templates/search/filters.html:82
 msgid "Video"
-msgstr ""
+msgstr "Vidéo"
 
 #: templates/search/filters.html:85
 msgid "Audio"
@@ -1287,37 +1287,37 @@ msgstr "Audio"
 #: templates/search/filters.html:92
 
 msgid "Recording Context"
-msgstr "contexte d'enregistrement"
+msgstr "Contexte d'enregistrement"
 
 #: templates/search/filters.html:105
 msgid "Terrain"
-msgstr ""
+msgstr "Terrain"
 
 #: templates/search/filters.html:108
 msgid "Radio"
-msgstr ""
+msgstr "Radio"
 
 #: templates/search/filters.html:111
 
 msgid "Studio"
-msgstr "Audio"
+msgstr "Studio"
 
 #: templates/search/filters.html:117
 
 msgid "Physical Format"
-msgstr "nature du support original"
+msgstr "Nature du support original"
 
 #: templates/search/filters.html:130
 msgid "CDR"
-msgstr ""
+msgstr "CDR"
 
 #: templates/search/filters.html:133
 msgid "Disque"
-msgstr ""
+msgstr "Disque"
 
 #: templates/search/filters.html:136
 msgid "Cylindre"
-msgstr ""
+msgstr "Cylindre"
 
 #: templates/search/mediacollection_listhaystack.html:14
 #: templates/search/mediaitem_listhaystack.html:14
@@ -1381,7 +1381,7 @@ msgstr "Année d'enregistrement"
 
 #: templates/search/mediaitem_listhaystack.html:85
 msgid "No results found"
-msgstr ""
+msgstr "Aucun résultat"
 
 #: templates/telemeta/admin.html:11
 #: templates/telemeta/admin_enumerations.html:6
@@ -1675,7 +1675,7 @@ msgstr "Vue normale"
 #: templates/telemeta/resource_related_edit.html:13
 #: templates/telemeta/resource_related_edit.html:41
 msgid "Save"
-msgstr "Enregistrer"
+msgstr "Valider"
 
 #: templates/telemeta/collection_edit.html:37
 #: templates/telemeta/inc/collection_related.html:6
@@ -1835,7 +1835,7 @@ msgstr[1] "%(counter)s items "
 
 #: templates/telemeta/home.html:13
 
-msgid "Access to free    public sound items"
+msgid "Access to free public sound items"
 msgstr "Accéder aux items consultables en libre accès"
 
 #: templates/telemeta/home.html:22
@@ -1894,7 +1894,7 @@ msgstr "Métadonnées Dublin Core"
 #: templates/telemeta/inc/epub_preamble.html:6
 
 msgid "Copyright"
-msgstr "droits"
+msgstr "Droits"
 
 #: templates/telemeta/inc/mediaitem_list.html:53
 msgid "No item"
@@ -1913,7 +1913,7 @@ msgstr "Utilisateur"
 #: templates/telemeta/inc/module_revisions.html:40
 #: templates/telemeta/lists.html:140
 msgid "deleted"
-msgstr "supprimé"
+msgstr "Supprimé"
 
 #: templates/telemeta/inc/module_searches.html:13
 msgid "Criteria"
@@ -2372,15 +2372,15 @@ msgstr "Soumettre"
 
 #: templates/telemeta/resource_confirm_delete.html:20
 msgid "Delete the resource permanently?"
-msgstr ""
+msgstr "Effacer définitivement la donnée"
 
 #: templates/telemeta/resource_confirm_delete.html:26
 msgid "No"
-msgstr ""
+msgstr "Non"
 
 #: templates/telemeta/resource_confirm_delete.html:28
 msgid "Yes"
-msgstr ""
+msgstr "Oui"
 
 #: templates/telemeta/resource_detail.html:140
 #: templates/telemeta/resource_detail_dc.html:33
@@ -2481,7 +2481,7 @@ msgid ""
 "Please login or contact the website administator to get a private access."
 msgstr ""
 "Connectez-vous s'il vous plaît ou bien contactez l'administrateur du site "
-"pour obtenir un accès privé."
+"pour obtenir un accès personnel."
 
 #: views/collection.py:319
 msgid "You have successfully updated your collection."
@@ -2571,13 +2571,13 @@ msgstr ""
 #~ msgstr "Analyse"
 
 #~ msgid "comments / ethnographic context"
-#~ msgstr "contexte ethnographique"
+#~ msgstr "Contexte ethnographique"
 
 #~ msgid "copy of"
 #~ msgstr "copie de"
 
 #~ msgid "document type"
-#~ msgstr "type de document"
+#~ msgstr "Type de document"
 
 #~ msgid "type of copy"
 #~ msgstr "type de copie"
@@ -2586,7 +2586,7 @@ msgstr ""
 #~ msgstr "Téléchargement:"
 
 #~ msgid "author of published notice"
-#~ msgstr "auteur de la notice éditée"
+#~ msgstr "Auteur de la notice éditée"
 
 #~ msgid "a_informer_07_03"
 #~ msgstr "a_informer_07_03"
@@ -2601,13 +2601,13 @@ msgstr ""
 #~ msgstr "Écouter la collection"
 
 #~ msgid "related media"
-#~ msgstr "média associés"
+#~ msgstr "Média associés"
 
 #~ msgid "Media Collections"
 #~ msgstr "Collections"
 
 #~ msgid "performance"
-#~ msgstr "composition"
+#~ msgstr "Composition"
 
 #~ msgid "Collections %(first_on_page)s to %(last_on_page)s on %(hits)s"
 #~ msgstr "Collections %(first_on_page)s à %(last_on_page)s sur %(hits)s"
@@ -2625,14 +2625,14 @@ msgstr ""
 #~ msgstr "Informations générales"
 
 #~ msgid "attachment"
-#~ msgstr "rattachement"
+#~ msgstr "Rattachement"
 
 
 #~ msgid "lieux types"
-#~ msgstr "lieux types"
+#~ msgstr "Lieux types"
 
 #~ msgid "subject"
-#~ msgstr "discipline"
+#~ msgstr "Discipline"
 
 #~ msgid "domain"
 #~ msgstr "discipline"
@@ -2664,19 +2664,19 @@ msgstr ""
 #~ msgstr "Compte"
 
 #~ msgid "username"
-#~ msgstr "nom d'utilisateur"
+#~ msgstr "Nom d'utilisateur"
 
 #~ msgid "level"
 #~ msgstr "niveau"
 
 #~ msgid "first name"
-#~ msgstr "prénom"
+#~ msgstr "Prénom"
 
 #~ msgid "last name"
-#~ msgstr "nom de famille"
+#~ msgstr "Nom de famille"
 
 #~ msgid "phone"
-#~ msgstr "téléphone"
+#~ msgstr "Téléphone"
 
 
 #~ msgid "email"
@@ -2689,7 +2689,7 @@ msgstr ""
 #~ msgstr "Lieux"
 
 #~ msgid "resource type"
-#~ msgstr "type de ressource"
+#~ msgstr "Type de ressource"
 
 #~ msgid "Visit the Telemeta open source project at"
 #~ msgstr "Visitez le projet libre Telemeta"
