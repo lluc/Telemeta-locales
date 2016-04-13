@@ -2472,14 +2472,14 @@ msgstr ""
 msgid "Search pattern"
 msgstr "搜索样板"
 
-#: templatetags/telemeta_utils.py:260
+#: templatetags/telemeta_tags.py:260
 #, python-format
 msgid "%(count)d item"
 msgid_plural "%(count)d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: templatetags/telemeta_utils.py:263
+#: templatetags/telemeta_tags.py:263
 #, python-format
 msgid "%(count)d collection"
 msgid_plural "%(count)d collections"
