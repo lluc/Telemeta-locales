@@ -80,11 +80,11 @@ msgstr "Média"
 
 #: forms/haystack_form.py:167 models/collection.py:74 models/enum.py:103
 msgid "recording context"
-msgstr "Contexte d'enregistrement"
+msgstr "contexte d'enregistrement"
 
 #: forms/haystack_form.py:178 models/format.py:56
 msgid "physical format"
-msgstr "Nature du support archivé"
+msgstr "nature du support archivé"
 
 #: forms/haystack_form.py:179 models/collection.py:96 models/item.py:99
 #: models/resource.py:77
