@@ -47,12 +47,12 @@ msgstr "collecteur"
 
 #: forms/haystack_form.py:115 models/item.py:74
 msgid "recording date (from)"
-msgstr "date d'enregistrement (depuis)"
+msgstr "période d'enregistrement (depuis)"
 
 #: forms/haystack_form.py:116
 
 msgid "recording date (until"
-msgstr "date d'enregistrement (jusqu'à)"
+msgstr "période d'enregistrement (jusqu'à)"
 
 #: forms/haystack_form.py:139
 
@@ -141,7 +141,7 @@ msgstr "éditeur"
 
 #: models/collection.py:86
 msgid "publisher collection"
-msgstr "collection éditeur"
+msgstr "Collection éditeur"
 
 #: models/collection.py:87
 msgid "publisher serial number"
@@ -565,7 +565,7 @@ msgstr "AAAA-MM-JJ"
 
 #: models/item.py:75
 msgid "recording date (until)"
-msgstr "date d'enregistrement (jusqu'à)"
+msgstr "période d'enregistrement (jusqu'à)"
 
 #: models/item.py:80
 msgid "location details"
@@ -1212,7 +1212,7 @@ msgstr "Accessible avec un compte"
 #: templates/search/advanceSearch.html:91
 #: templates/telemeta/mediaitem_detail.html:230
 msgid "Recording date"
-msgstr "Date d'enregistrement"
+msgstr "Periode d'enregistrement"
 
 #: templates/search/advanceSearch.html:144 templates/search/search.html:15
 #: templates/telemeta/search_results.html:6
