@@ -8,13 +8,15 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-17 13:00+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2017-02-07 09:35+0100\n"
 "Last-Translator: Guillaume Pellerin <yomguy@parisson.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _(';u\"\n"
+"X-Poedit-Basepath: ../../..\n"
 
 #: forms/haystack_form.py:66 models/collection.py:55 models/item.py:51
 #: models/item.py:412 models/item.py:493 models/playlist.py:35
@@ -103,7 +105,7 @@ msgstr "Déposant / contributeur"
 #: models/collection.py:57 models/collection.py:69 models/item.py:53
 #: models/item.py:72 models/item.py:102
 msgid "First name, Last name ; First name, Last name"
-msgstr "Nom, Prénom ; Nom, Prénom"
+msgstr "Nom, prénom; Nom, prénom; ..."
 
 #: models/collection.py:58 models/item.py:414 models/playlist.py:36
 #: models/resource.py:61 models/resource.py:89
@@ -311,7 +313,7 @@ msgstr "consultation libre"
 
 #: models/corpus.py:38
 msgid "collections"
-msgstr "Collections"
+msgstr "Enquêtes"
 
 #: models/corpus.py:62 models/fonds.py:58
 msgid "total available duration"
@@ -320,7 +322,7 @@ msgstr "Durée totale disponible"
 #: models/corpus.py:66 models/corpus.py:67 models/corpus.py:74
 #: models/fonds.py:38
 msgid "corpus"
-msgstr "Corpus"
+msgstr "Missions"
 
 #: models/corpus.py:78 models/corpus.py:79
 msgid "corpus related media"
@@ -1465,12 +1467,12 @@ msgstr ""
 
 #: templates/telemeta/base.html:121
 msgid "Corpus"
-msgstr ""
+msgstr "Missions"
 
 #: templates/telemeta/base.html:122 templates/telemeta/collection_list.html:6
 #: templates/telemeta/collection_list.html:11
 msgid "Collections"
-msgstr "Collections"
+msgstr "Enquêtes"
 
 #: templates/telemeta/base.html:123 templates/telemeta/mediaitem_list.html:12
 msgid "Items"
@@ -1820,14 +1822,13 @@ msgstr "Etat/nation"
 
 #: templates/telemeta/geo_countries.html:15
 msgid "Number of collections"
-msgstr "Nombre de collections"
+msgstr "Nombre d'enquêtes"
 
 #: templates/telemeta/geo_countries.html:24
 #, python-format
 msgid "1 collection"
 msgid_plural "%(counter)s collections"
-msgstr[0] "1 collection"
-msgstr[1] "%(counter)s collections"
+msgstr[0] "1 enquête"
 
 #: templates/telemeta/geo_countries.html:31
 #, python-format
@@ -2522,6 +2523,113 @@ msgstr ""
 msgid "Bad password, please try again."
 msgstr ""
 "Vos nom d'utilisateur et/ou mot de passe sont incorrects. Essayez à nouveau."
+
+# ---------------- models/item.py ---------------------
+msgid "informer"
+msgstr "informateur"
+
+msgid "composer"
+msgstr "compositeur"
+
+msgid "timbre referenced"
+msgstr "timbre référencé"
+
+msgid "timbre code"
+msgstr "cote du timbre"
+
+msgid "alternate title"
+msgstr "autre titre"
+
+msgid "melody"
+msgstr "mélodie"
+
+msgid "You can use ABC notation"
+msgstr "Vous pouvez utiliser la notation ABC"
+
+msgid "kind of song"
+msgstr "genre de chanson"
+
+msgid "kind of vocal"
+msgstr "genre vocal"
+
+msgid "kind of music"
+msgstr "genre de musique"
+
+msgid "kind of tale"
+msgstr "genre de conte"
+
+msgid "Details"
+msgstr "précisions"
+
+msgid "Dance"
+msgstr "danse"
+
+msgid "Details on dance"
+msgstr "précisions sur la danse"
+
+msgid "Digest"
+msgstr "résumé"
+
+msgid "Thematic"
+msgstr "thématique"
+
+msgid "Names"
+msgstr "noms"
+
+msgid "places"
+msgstr "lieux"
+
+msgid "Place named; place named; ..."
+msgstr "Lieu cité; lieu cité; ..."
+
+msgid "periods"
+msgstr "périodes"
+
+msgid "Period recounted; period recounted; ..."
+msgstr "période relatées; période relatée; ..."
+
+msgid "Text ?"
+msgstr "présence de texte ?"
+
+msgid "refrain"
+msgstr "refrain de la chanson"
+
+msgid "jingle"
+msgstr "ritournelle du conte"
+
+msgid "Title ref. Coirault"
+msgstr "titre ref. Coirault"
+
+msgid "code Coirault"
+msgstr "cote Coirault"
+
+msgid "Title ref. Laforte"
+msgstr "titre ref. Laforte"
+
+msgid "code Laforte"
+msgstr "cote Laforte"
+
+msgid "Title ref. Delarue-Teneze"
+msgstr "titre ref. Delarue-Teneze"
+
+msgid "code Delarue-Teneze"
+msgstr "cote Delarue-Teneze"
+
+msgid "Title ref. Aare-Thomson"
+msgstr "titre ref. Aarne-Thompson"
+
+msgid "code Aare-Thomson"
+msgstr "cote Aarne-Thompson"
+
+msgid "Musical organization"
+msgstr "organisation musicale"
+
+msgid "informers"
+msgstr "informateurs"
+
+# ------------------ models/enum.py
+msgid "kind of short song"
+msgstr "genre de chanson courte"
 
 #~ msgid "Unknown"
 #~ msgstr "Inconnu"
