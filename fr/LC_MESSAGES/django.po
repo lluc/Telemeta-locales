@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-17 13:00+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2017-03-15 12:16+0100\n"
 "Last-Translator: Guillaume Pellerin <yomguy@parisson.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #: forms/haystack_form.py:66 models/collection.py:55 models/item.py:51
 #: models/item.py:412 models/item.py:493 models/playlist.py:35
@@ -320,7 +320,7 @@ msgstr "Durée totale disponible"
 #: models/corpus.py:66 models/corpus.py:67 models/corpus.py:74
 #: models/fonds.py:38
 msgid "corpus"
-msgstr "Corpus"
+msgstr "Mission"
 
 #: models/corpus.py:78 models/corpus.py:79
 msgid "corpus related media"
@@ -1465,7 +1465,7 @@ msgstr ""
 
 #: templates/telemeta/base.html:121
 msgid "Corpus"
-msgstr ""
+msgstr "Mission"
 
 #: templates/telemeta/base.html:122 templates/telemeta/collection_list.html:6
 #: templates/telemeta/collection_list.html:11
