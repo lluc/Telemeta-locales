@@ -257,7 +257,7 @@ msgstr "notes de l'archiviste"
 #: models/collection.py:121 models/collection.py:274 models/collection.py:285
 #: models/item.py:54
 msgid "collection"
-msgstr "Collection"
+msgstr "enquête"
 
 #: models/collection.py:154 models/collection.py:164
 msgid "states / nations"
@@ -277,15 +277,15 @@ msgstr "Volume de la collection"
 
 #: models/collection.py:278 models/collection.py:279
 msgid "collection related media"
-msgstr "média associés à la collection"
+msgstr "média associés à l'enquête"
 
 #: models/collection.py:289
 msgid "collection identifier"
-msgstr "identifiant de la collection"
+msgstr "identifiant de l'enquête"
 
 #: models/collection.py:290
 msgid "collection identifiers"
-msgstr "identifiants de la collection"
+msgstr "identifiants de l'enquête"
 
 #: models/core.py:49 models/item.py:38 models/item.py:145
 msgid "none"
@@ -583,7 +583,7 @@ msgstr "Sélection collecteur"
 
 #: models/item.py:84
 msgid "collector as in collection"
-msgstr "collecteur identique à la collection"
+msgstr "collecteur identique à l'enquête"
 
 #: models/item.py:85
 msgid "creator reference"
@@ -1350,7 +1350,7 @@ msgstr "Cote"
 #: templates/search/mediacollection_listhaystack.html:82
 #: templates/telemeta/inc/collection_list.html:43
 msgid "No collection"
-msgstr "Aucune collection"
+msgstr "Aucune enquête"
 
 #: templates/search/mediaitem_listhaystack.html:18
 #: templates/telemeta/mediaitem_detail.html:276
@@ -1555,7 +1555,7 @@ msgstr "Annuler"
 
 #: templates/telemeta/collection_detail.html:5 views/collection.py:37
 msgid "Collection"
-msgstr "Collection"
+msgstr "Enquête"
 
 #: templates/telemeta/collection_detail.html:45
 #: templates/telemeta/lists.html:92 templates/telemeta/lists.html.py:155
@@ -1636,7 +1636,7 @@ msgstr "Données techniques"
 
 #: templates/telemeta/collection_detail.html:213
 msgid "Collection size"
-msgstr "Volume de la collection"
+msgstr "Volume de l'enquête"
 
 #: templates/telemeta/collection_detail.html:217
 #: templates/telemeta/geo_countries.html:16
@@ -1821,6 +1821,7 @@ msgstr "Nombre d'enquêtes"
 msgid "1 collection"
 msgid_plural "%(counter)s collections"
 msgstr[0] "1 enquête"
+msgstr[1] "%(counter)s enquêtes "
 
 #: templates/telemeta/geo_countries.html:31
 #, python-format
@@ -2007,7 +2008,7 @@ msgstr "Format"
 
 #: templates/telemeta/mediaitem_edit.html:107
 msgid "Collection access status"
-msgstr "Statut d'accès de la collection"
+msgstr "Statut d'accès de l'enquête"
 
 #: templates/telemeta/mediaitem_edit.html:108
 msgid "Context access status"
@@ -2451,8 +2452,8 @@ msgstr[1] "%(count)d items"
 #, python-format
 msgid "%(count)d collection"
 msgid_plural "%(count)d collections"
-msgstr[0] "%(count)d collection"
-msgstr[1] "%(count)d collections"
+msgstr[0] "%(count)d enquête"
+msgstr[1] "%(count)d enquêtes"
 
 #: util/locale_fix.py:5
 msgid "My last changes"
