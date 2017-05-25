@@ -1821,6 +1821,7 @@ msgstr "Nombre d'enquêtes"
 msgid "1 collection"
 msgid_plural "%(counter)s collections"
 msgstr[0] "1 enquête"
+msgstr[1] "%(counter)s enquêtes"
 
 #: templates/telemeta/geo_countries.html:31
 #, python-format
