@@ -4,11 +4,13 @@ msgstr ""
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Guillaume Pellerin <yomguy@parisson.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language-Team: \n"
+"Language: fr\n"
 
 #: forms/haystack_form.py:66 models/collection.py:55 models/item.py:51
 #: models/item.py:412 models/item.py:493 models/playlist.py:35
@@ -407,9 +409,9 @@ msgstr "Fonds"
 msgid "fonds related media"
 msgstr "Média associés"
 
-#: models/format.py:39 models/item.py:152 models/item.py:337
-#: models/item.py:361 models/item.py:371 models/item.py:385 models/item.py:409
-#: models/item.py:434 models/item.py:468 models/item.py:480 models/item.py:492
+#: models/format.py:39 models/item.py:152 models/item.py:337 models/item.py:361
+#: models/item.py:371 models/item.py:385 models/item.py:409 models/item.py:434
+#: models/item.py:468 models/item.py:480 models/item.py:492
 msgid "item"
 msgstr "item"
 
@@ -1822,7 +1824,6 @@ msgid "1 collection"
 msgid_plural "%(counter)s collections"
 msgstr[0] "1 enquête"
 msgstr[1] "%(counter)s enquêtes "
-
 
 #: templates/telemeta/geo_countries.html:31
 #, python-format
