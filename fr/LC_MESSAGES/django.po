@@ -529,7 +529,7 @@ msgstr "prêt"
 
 #: models/item.py:53
 msgid "collector"
-msgstr "Collecteur"
+msgstr "Enquêteur"
 
 #: models/item.py:55 models/item.py:56
 msgid "YYYY-MM-DD"
@@ -581,11 +581,11 @@ msgstr "n° de l'item"
 
 #: models/item.py:83
 msgid "collector selection"
-msgstr "Sélection collecteur"
+msgstr "Sélection  enquêteur"
 
 #: models/item.py:84
 msgid "collector as in collection"
-msgstr "collecteur identique à l'enquête"
+msgstr "enquêteur identique à l'enquête"
 
 #: models/item.py:85
 msgid "creator reference"
@@ -823,7 +823,7 @@ msgstr "description"
 
 #: models/resource.py:63
 msgid "public access"
-msgstr "accès public"
+msgstr "type d'accès"
 
 #: models/resource.py:91
 msgid "url"
@@ -2626,14 +2626,62 @@ msgstr "informateurs"
 msgid "kind of short song"
 msgstr "genre de chanson courte"
 
+msgid "Documentation"
+msgstr "Documentation associée"
+
+msgid "comments"
+msgstr "commentaire"
+
+msgid "document type"
+msgstr "Type de document"
+
+msgid "type of copy"
+msgstr "type de copie"
+
+msgid "first name"
+msgstr "Prénom"
+
+msgid "last name"
+msgstr "Nom de famille"
+
+msgid "phone"
+msgstr "Téléphone"
+
+msgid "email"
+msgstr "Courriel"
+
+msgid "Conservation site"
+msgstr "Lieu de conservation"
+
+msgid "Locations"
+msgstr "Lieux"
+
+msgid "resource type"
+msgstr "Type de ressource"
+
+msgid "Marker"
+msgstr "Marqueur"
+
+msgid "collectors"
+msgstr "enquêteurs"
+
+msgid "code partner"
+msgstr "Cote dans l'institution partenaire"
+
+msgid "documentation extra"
+msgstr "documentation associée"
+
+msgid "Cultural area ; Cultural area"
+msgstr "Aire culturelle ; Aire culturelle"
+
+msgid "booklet description"
+msgstr "documentation  associée"
+
 #~ msgid "Unknown"
 #~ msgstr "Inconnu"
 
 #~ msgid "Criteria"
 #~ msgstr "Critères"
-
-#~ msgid "Documentation"
-#~ msgstr "Documentation associée"
 
 #~ msgid "Password (again)"
 #~ msgstr "Mot de passe (encore)"
@@ -2659,9 +2707,6 @@ msgstr "genre de chanson courte"
 
 #~ msgid "No such collection"
 #~ msgstr "Aucune collection de ce type"
-
-#~ msgid "comments"
-#~ msgstr "commentaire"
 
 #~ msgid "Telemeta administration"
 #~ msgstr "Administration Telemeta"
@@ -2693,12 +2738,6 @@ msgstr "genre de chanson courte"
 
 #~ msgid "copy of"
 #~ msgstr "copie de"
-
-#~ msgid "document type"
-#~ msgstr "Type de document"
-
-#~ msgid "type of copy"
-#~ msgstr "type de copie"
 
 #~ msgid "Download:"
 #~ msgstr "Téléchargement:"
@@ -2784,32 +2823,8 @@ msgstr "genre de chanson courte"
 #~ msgid "level"
 #~ msgstr "niveau"
 
-#~ msgid "first name"
-#~ msgstr "Prénom"
-
-#~ msgid "last name"
-#~ msgstr "Nom de famille"
-
-#~ msgid "phone"
-#~ msgstr "Téléphone"
-
-#~ msgid "email"
-#~ msgstr "Courriel"
-
-#~ msgid "Conservation site"
-#~ msgstr "Lieu de conservation"
-
-#~ msgid "Locations"
-#~ msgstr "Lieux"
-
-#~ msgid "resource type"
-#~ msgstr "Type de ressource"
-
 #~ msgid "Visit the Telemeta open source project at"
 #~ msgstr "Visitez le projet libre Telemeta"
-
-#~ msgid "Marker"
-#~ msgstr "Marqueur"
 
 #~ msgid "item added to the selected playlist"
 #~ msgstr "item ajouté à la liste de lecture sélectionnée"
