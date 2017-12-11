@@ -2677,6 +2677,42 @@ msgstr "Aire culturelle ; Aire culturelle"
 msgid "booklet description"
 msgstr "documentation  associée"
 
+msgid "Collectors"
+msgstr "Enquêteurs(s)"
+
+msgid "birth date"
+msgstr "date de naissance"
+
+msgid "birth_date"
+msgstr "date de naissance"
+
+msgid "birth location"
+msgstr "lieu de naissance"
+
+msgid "death date"
+msgstr "date de décès"
+
+msgid "death_date"
+msgstr "date de décès"
+
+msgid "death location"
+msgstr "lieu de décès"
+
+msgid "biography"
+msgstr "Biographie"
+
+msgid "true"
+msgstr "oui"
+
+msgid "True"
+msgstr "Oui"
+
+msgid "false"
+msgstr "non"
+
+msgid "False"
+msgstr "Non"
+
 #~ msgid "Unknown"
 #~ msgstr "Inconnu"
 
